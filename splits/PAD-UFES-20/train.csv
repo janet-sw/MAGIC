@@ -1,0 +1,914 @@
+patient_id,lesion_id,smoke,drink,background_father,background_mother,age,pesticide,gender,skin_cancer_history,cancer_history,has_piped_water,has_sewage_system,fitspatrick,region,diameter_1,diameter_2,diagnostic,itch,grew,hurt,changed,bleed,elevation,image_path,biopsed,label
+PAT_46,881,False,False,POMERANIA,POMERANIA,55,False,FEMALE,True,True,True,True,3.0,NECK,6.0,5.0,BCC,True,True,False,True,True,True,PAT_46_881_939.png,True,basal cell carcinoma
+PAT_1545,1867,,,,,77,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1545_1867_547.png,False,actinic keratosis
+PAT_1989,4061,,,,,75,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_1989_4061_934.png,False,actinic keratosis
+PAT_684,1302,False,True,POMERANIA,POMERANIA,79,False,MALE,True,False,False,False,1.0,FOREARM,5.0,5.0,BCC,True,True,False,False,True,True,PAT_684_1302_588.png,True,basal cell carcinoma
+PAT_778,1471,False,True,GERMANY,ITALY,52,False,FEMALE,False,True,True,True,3.0,FACE,15.0,10.0,BCC,False,True,False,True,True,True,PAT_778_1471_835.png,True,basal cell carcinoma
+PAT_1995,4080,,,,,68,,,,,,,,FOREARM,,,ACK,True,False,False,True,False,False,PAT_1995_4080_695.png,False,actinic keratosis
+PAT_705,4015,False,True,GERMANY,GERMANY,58,True,FEMALE,True,True,True,True,1.0,FOREARM,9.0,7.0,ACK,False,True,False,False,False,False,PAT_705_4015_413.png,False,actinic keratosis
+PAT_2140,4726,,,,,45,,,,,,,,NECK,,,ACK,True,False,False,False,False,True,PAT_2140_4726_141.png,False,actinic keratosis
+PAT_636,1204,False,False,BRAZIL,BRAZIL,78,False,FEMALE,True,True,True,True,2.0,CHEST,20.0,18.0,BCC,True,True,True,True,True,True,PAT_636_1204_521.png,True,basal cell carcinoma
+PAT_380,1540,False,False,NETHERLANDS,GERMANY,60,True,MALE,False,True,True,True,2.0,NOSE,3.0,3.0,SCC,True,False,False,False,False,False,PAT_380_1540_959.png,True,squamous cell carcinoma
+PAT_759,1538,False,False,GERMANY,GERMANY,74,False,MALE,False,False,True,False,2.0,NOSE,5.0,3.0,BCC,True,True,False,False,True,True,PAT_759_1538_566.png,True,basal cell carcinoma
+PAT_875,1668,False,False,POMERANIA,POMERANIA,61,True,MALE,True,False,True,True,2.0,CHEST,10.0,10.0,BCC,False,UNK,False,UNK,False,True,PAT_875_1668_588.png,True,basal cell carcinoma
+PAT_435,854,False,False,ITALY,ITALY,60,True,FEMALE,False,True,False,False,3.0,FACE,10.0,8.0,BCC,False,UNK,False,UNK,False,True,PAT_435_854_68.png,True,basal cell carcinoma
+PAT_79,120,False,False,POMERANIA,POMERANIA,63,False,FEMALE,False,False,True,True,2.0,FACE,7.0,5.0,BCC,False,False,False,False,False,False,PAT_79_120_532.png,True,basal cell carcinoma
+PAT_724,1369,False,False,GERMANY,GERMANY,49,True,FEMALE,True,False,True,True,1.0,FACE,5.0,5.0,BCC,True,False,True,False,False,True,PAT_724_1369_896.png,True,basal cell carcinoma
+PAT_1006,53,,,,,63,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,False,PAT_1006_53_716.png,False,actinic keratosis
+PAT_1431,1495,,,,,58,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1431_1495_511.png,False,actinic keratosis
+PAT_944,1795,False,True,POMERANIA,POMERANIA,31,True,MALE,False,False,True,True,3.0,FACE,10.0,7.0,BCC,False,True,False,False,True,True,PAT_944_1795_371.png,True,basal cell carcinoma
+PAT_394,1562,False,True,POLAND,ITALY,75,False,MALE,True,True,True,True,2.0,ARM,8.0,7.0,BCC,True,False,False,False,False,True,PAT_394_1562_579.png,True,basal cell carcinoma
+PAT_374,762,False,False,GERMANY,GERMANY,77,False,FEMALE,False,True,True,True,2.0,NOSE,6.0,6.0,ACK,True,True,True,False,True,True,PAT_374_762_794.png,True,actinic keratosis
+PAT_289,1399,True,False,POMERANIA,POMERANIA,56,True,MALE,False,True,False,False,2.0,FOREARM,6.0,4.0,ACK,True,False,False,False,False,False,PAT_289_1399_481.png,False,actinic keratosis
+PAT_1029,135,,,,,47,,,,,,,,NOSE,,,ACK,True,False,False,False,False,False,PAT_1029_135_239.png,False,actinic keratosis
+PAT_682,1292,False,False,POMERANIA,POMERANIA,75,False,FEMALE,True,False,True,True,2.0,BACK,10.0,10.0,BCC,True,True,False,False,True,True,PAT_682_1292_986.png,True,basal cell carcinoma
+PAT_680,1289,True,False,PORTUGAL,ITALY,78,False,MALE,True,True,True,True,2.0,BACK,10.0,10.0,MEL,False,True,False,True,False,True,PAT_680_1289_182.png,True,melanoma
+PAT_53,1370,False,False,BRAZIL,BRAZIL,80,False,MALE,False,True,True,False,1.0,CHEST,20.0,18.0,BCC,True,True,False,False,False,True,PAT_53_1370_245.png,True,basal cell carcinoma
+PAT_868,1657,False,True,ITALY,ITALY,64,True,MALE,False,True,False,False,3.0,CHEST,4.0,4.0,ACK,True,False,False,False,False,True,PAT_868_1657_698.png,True,actinic keratosis
+PAT_183,283,False,False,UNK,UNK,76,False,MALE,True,False,False,False,3.0,CHEST,9.0,7.0,SCC,True,False,False,False,False,False,PAT_183_283_495.png,True,squamous cell carcinoma
+PAT_479,919,False,False,POMERANIA,POMERANIA,48,True,MALE,True,False,False,False,2.0,NECK,5.0,5.0,BCC,True,False,False,False,True,True,PAT_479_919_97.png,True,basal cell carcinoma
+PAT_867,1650,False,False,POMERANIA,POMERANIA,47,True,FEMALE,True,False,True,True,3.0,CHEST,11.0,11.0,BCC,True,True,True,False,True,True,PAT_867_1650_901.png,True,basal cell carcinoma
+PAT_236,361,False,True,POMERANIA,POMERANIA,55,True,MALE,True,True,False,False,3.0,CHEST,6.0,5.0,ACK,True,False,False,False,False,True,PAT_236_361_180.png,True,actinic keratosis
+PAT_26,37,False,True,GERMANY,GERMANY,47,False,FEMALE,False,True,False,False,2.0,CHEST,7.0,5.0,ACK,UNK,UNK,False,UNK,False,True,PAT_26_37_865.png,True,actinic keratosis
+PAT_2025,4229,,,,,63,,,,,,,,BACK,,,ACK,True,True,False,False,False,False,PAT_2025_4229_541.png,False,actinic keratosis
+PAT_814,1532,False,True,POMERANIA,POMERANIA,63,True,MALE,False,True,True,True,2.0,CHEST,40.0,20.0,BCC,True,True,True,False,True,True,PAT_814_1532_545.png,True,basal cell carcinoma
+PAT_1014,86,,,,,41,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1014_86_861.png,False,actinic keratosis
+PAT_920,1747,False,False,UNK,UNK,56,True,FEMALE,False,False,True,False,2.0,NOSE,7.0,5.0,BCC,True,UNK,False,UNK,False,True,PAT_920_1747_19.png,True,basal cell carcinoma
+PAT_795,1508,False,True,GERMANY,GERMANY,69,True,MALE,True,True,True,True,3.0,HAND,11.0,10.0,ACK,True,False,False,False,False,True,PAT_795_1508_925.png,True,actinic keratosis
+PAT_692,1308,False,False,GERMANY,GERMANY,71,True,FEMALE,True,False,True,True,3.0,FACE,9.0,6.0,BCC,True,True,True,True,False,True,PAT_692_1308_364.png,True,basal cell carcinoma
+PAT_645,4043,False,False,GERMANY,GERMANY,57,True,FEMALE,True,False,False,False,3.0,FACE,6.0,5.0,ACK,True,True,False,False,False,False,PAT_645_4043_374.png,False,actinic keratosis
+PAT_882,1677,False,False,POMERANIA,POMERANIA,92,False,FEMALE,False,False,False,False,2.0,FOREARM,10.0,10.0,SCC,True,UNK,False,UNK,True,True,PAT_882_1677_789.png,True,squamous cell carcinoma
+PAT_1725,3222,,,,,47,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1725_3222_943.png,False,actinic keratosis
+PAT_98,152,False,False,BRAZIL,BRAZIL,61,False,MALE,False,False,True,True,2.0,CHEST,9.0,7.0,BCC,True,UNK,False,UNK,False,True,PAT_98_152_562.png,True,basal cell carcinoma
+PAT_1688,3066,,,,,68,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1688_3066_491.png,False,actinic keratosis
+PAT_981,1848,True,False,POMERANIA,POMERANIA,67,True,FEMALE,False,False,True,True,3.0,NOSE,3.0,3.0,BCC,False,UNK,False,UNK,False,False,PAT_981_1848_906.png,True,basal cell carcinoma
+PAT_55,84,False,False,GERMANY,GERMANY,66,False,FEMALE,False,True,True,True,1.0,ARM,10.0,5.0,BCC,True,False,False,False,True,True,PAT_55_84_506.png,True,basal cell carcinoma
+PAT_1710,3160,,,,,64,,,,,,,,NOSE,,,ACK,True,False,False,False,False,False,PAT_1710_3160_488.png,False,actinic keratosis
+PAT_1414,1429,,,,,75,,,,,,,,ARM,,,ACK,True,False,False,False,True,False,PAT_1414_1429_59.png,False,actinic keratosis
+PAT_1492,1705,,,,,63,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1492_1705_578.png,False,actinic keratosis
+PAT_549,1043,False,False,BRAZIL,BRAZIL,85,False,MALE,False,False,True,False,2.0,NECK,30.0,24.0,SCC,True,True,False,False,False,True,PAT_549_1043_676.png,True,squamous cell carcinoma
+PAT_461,895,False,False,POMERANIA,POMERANIA,41,False,FEMALE,True,False,False,False,3.0,NOSE,10.0,7.0,BCC,True,True,False,False,True,False,PAT_461_895_72.png,True,basal cell carcinoma
+PAT_875,1669,False,False,POMERANIA,POMERANIA,61,True,MALE,True,False,True,True,2.0,BACK,19.0,11.0,BCC,True,UNK,False,UNK,True,True,PAT_875_1669_946.png,True,basal cell carcinoma
+PAT_714,1337,True,False,GERMANY,GERMANY,67,True,MALE,True,True,True,True,3.0,EAR,15.0,11.0,SCC,True,True,False,True,False,True,PAT_714_1337_709.png,True,squamous cell carcinoma
+PAT_847,1610,False,False,POMERANIA,POMERANIA,60,True,MALE,False,True,True,True,2.0,BACK,15.0,10.0,BCC,False,False,True,False,False,False,PAT_847_1610_165.png,True,basal cell carcinoma
+PAT_441,861,False,False,GERMANY,GERMANY,55,False,FEMALE,True,True,False,False,2.0,BACK,6.0,5.0,BCC,False,True,False,False,False,True,PAT_441_861_415.png,True,basal cell carcinoma
+PAT_999,20,,,,,40,,,,,,,,ARM,,,ACK,True,False,False,False,True,False,PAT_999_20_223.png,False,actinic keratosis
+PAT_796,1510,True,False,ITALY,ITALY,83,False,MALE,False,False,True,True,2.0,FOREARM,30.0,20.0,BCC,True,UNK,True,UNK,True,True,PAT_796_1510_130.png,True,basal cell carcinoma
+PAT_1414,1432,,,,,75,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1414_1432_969.png,False,actinic keratosis
+PAT_690,1309,False,False,NETHERLANDS,UNK,58,False,FEMALE,True,True,True,True,3.0,NOSE,17.0,14.0,BCC,True,True,True,True,True,True,PAT_690_1309_981.png,True,basal cell carcinoma
+PAT_1410,1410,,,,,86,,,,,,,,NOSE,,,ACK,True,True,False,False,False,True,PAT_1410_1410_46.png,False,actinic keratosis
+PAT_63,1075,False,False,BRAZIL,NORWAY,36,False,FEMALE,False,True,True,True,2.0,CHEST,15.0,10.0,BCC,True,True,True,False,True,True,PAT_63_1075_498.png,True,basal cell carcinoma
+PAT_207,3951,True,False,PORTUGAL,PORTUGAL,80,True,MALE,False,False,True,True,3.0,CHEST,15.0,12.0,ACK,False,False,False,False,False,False,PAT_207_3951_140.png,False,actinic keratosis
+PAT_483,925,False,False,POMERANIA,POMERANIA,85,True,FEMALE,False,True,True,False,3.0,NOSE,12.0,5.0,BCC,True,True,True,False,True,True,PAT_483_925_716.png,True,basal cell carcinoma
+PAT_358,738,False,True,POMERANIA,POMERANIA,60,True,MALE,True,False,False,False,2.0,CHEST,8.0,6.0,BCC,True,False,False,False,False,True,PAT_358_738_837.png,True,basal cell carcinoma
+PAT_875,1670,False,False,POMERANIA,POMERANIA,61,True,MALE,True,False,True,True,2.0,BACK,9.0,8.0,BCC,True,UNK,False,UNK,False,True,PAT_875_1670_121.png,True,basal cell carcinoma
+PAT_645,1300,False,False,GERMANY,GERMANY,57,True,FEMALE,True,False,False,False,3.0,FACE,6.0,6.0,BCC,False,True,False,False,True,True,PAT_645_1300_463.png,True,basal cell carcinoma
+PAT_792,4351,False,True,BRAZIL,BRAZIL,58,True,FEMALE,False,False,True,True,5.0,FOREARM,5.0,5.0,ACK,False,False,False,False,False,False,PAT_792_4351_858.png,False,actinic keratosis
+PAT_1728,3234,,,,,79,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1728_3234_299.png,False,actinic keratosis
+PAT_722,1377,True,False,POMERANIA,POMERANIA,65,True,MALE,True,False,True,True,2.0,FACE,13.0,10.0,BCC,True,UNK,True,UNK,True,True,PAT_722_1377_120.png,True,basal cell carcinoma
+PAT_216,331,True,True,POMERANIA,POMERANIA,71,True,MALE,False,False,False,False,3.0,FOREARM,10.0,6.0,SCC,False,False,False,False,False,False,PAT_216_331_678.png,True,squamous cell carcinoma
+PAT_747,1408,False,False,UNK,BRAZIL,55,False,MALE,True,False,True,True,3.0,CHEST,13.0,12.0,BCC,True,True,False,False,False,True,PAT_747_1408_427.png,True,basal cell carcinoma
+PAT_361,1568,False,False,POMERANIA,POMERANIA,71,True,MALE,True,False,False,False,3.0,FACE,10.0,9.0,SCC,False,False,False,False,False,False,PAT_361_1568_456.png,True,squamous cell carcinoma
+PAT_1794,3435,,,,,67,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_1794_3435_711.png,False,actinic keratosis
+PAT_395,795,False,False,GERMANY,GERMANY,58,True,FEMALE,False,True,False,False,3.0,THIGH,15.0,12.0,SCC,True,UNK,False,UNK,True,True,PAT_395_795_43.png,True,squamous cell carcinoma
+PAT_249,380,False,False,GERMANY,GERMANY,62,False,MALE,False,True,True,True,3.0,FOREARM,6.0,4.0,ACK,False,False,False,False,False,False,PAT_249_380_366.png,True,actinic keratosis
+PAT_985,1856,False,False,POMERANIA,POMERANIA,49,True,MALE,True,False,True,True,3.0,NOSE,14.0,9.0,BCC,True,True,True,False,True,True,PAT_985_1856_397.png,True,basal cell carcinoma
+PAT_458,891,False,True,POMERANIA,POMERANIA,80,False,MALE,True,False,False,False,1.0,FACE,6.0,6.0,BCC,False,True,False,False,False,True,PAT_458_891_709.png,True,basal cell carcinoma
+PAT_747,1410,False,False,UNK,BRAZIL,55,False,MALE,True,False,True,True,3.0,FOREARM,10.0,7.0,ACK,True,True,False,False,True,True,PAT_747_1410_179.png,True,actinic keratosis
+PAT_1316,1114,,,,,69,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1316_1114_517.png,False,actinic keratosis
+PAT_478,916,False,True,POMERANIA,POMERANIA,47,True,MALE,False,False,False,False,2.0,BACK,22.0,20.0,BCC,True,True,False,False,False,False,PAT_478_916_806.png,True,basal cell carcinoma
+PAT_76,1039,False,False,ITALY,ITALY,94,False,MALE,False,False,True,True,1.0,EAR,20.0,18.0,SCC,True,True,False,False,False,True,PAT_76_1039_269.png,True,squamous cell carcinoma
+PAT_206,312,False,True,GERMANY,GERMANY,47,True,MALE,False,True,True,True,2.0,CHEST,13.0,11.0,BCC,True,False,True,False,True,False,PAT_206_312_760.png,True,basal cell carcinoma
+PAT_167,258,False,False,GERMANY,GERMANY,58,True,MALE,True,True,False,False,1.0,FACE,10.0,7.0,BCC,True,True,True,True,True,True,PAT_167_258_711.png,True,basal cell carcinoma
+PAT_373,761,False,False,BRAZIL,GERMANY,80,False,MALE,False,True,True,True,4.0,FACE,7.0,5.0,BCC,True,True,False,False,True,True,PAT_373_761_708.png,True,basal cell carcinoma
+PAT_547,1033,False,False,GERMANY,GERMANY,56,True,FEMALE,True,False,True,True,3.0,NOSE,5.0,3.0,BCC,True,True,False,False,False,True,PAT_547_1033_911.png,True,basal cell carcinoma
+PAT_56,86,False,False,GERMANY,GERMANY,70,False,FEMALE,False,True,True,True,2.0,ARM,24.0,20.0,SCC,True,True,True,False,True,False,PAT_56_86_479.png,True,squamous cell carcinoma
+PAT_221,339,False,False,POMERANIA,POMERANIA,66,False,FEMALE,True,True,False,False,3.0,FACE,9.0,6.0,BCC,True,True,False,False,False,True,PAT_221_339_566.png,True,basal cell carcinoma
+PAT_782,1493,False,False,GERMANY,GERMANY,71,False,MALE,True,True,False,True,3.0,CHEST,12.0,6.0,ACK,False,False,False,False,False,False,PAT_782_1493_140.png,True,actinic keratosis
+PAT_940,1774,False,False,GERMANY,GERMANY,69,True,MALE,False,False,True,True,2.0,FACE,15.0,13.0,SCC,True,UNK,False,UNK,True,True,PAT_940_1774_962.png,True,squamous cell carcinoma
+PAT_316,674,False,False,GERMANY,GERMANY,79,False,FEMALE,True,False,False,True,3.0,NOSE,9.0,8.0,BCC,True,True,True,False,False,True,PAT_316_674_924.png,True,basal cell carcinoma
+PAT_842,1606,False,False,GERMANY,GERMANY,40,True,FEMALE,True,True,True,False,3.0,CHEST,31.0,21.0,BCC,False,True,False,False,False,False,PAT_842_1606_720.png,True,basal cell carcinoma
+PAT_1082,342,,,,,47,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1082_342_705.png,False,actinic keratosis
+PAT_1821,3575,,,,,79,,,,,,,,THIGH,,,ACK,True,False,False,False,False,False,PAT_1821_3575_920.png,False,actinic keratosis
+PAT_15,1001,False,True,GERMANY,GERMANY,57,False,FEMALE,True,True,False,True,2.0,FOREARM,5.0,3.0,BCC,True,UNK,False,UNK,True,True,PAT_15_1001_749.png,True,basal cell carcinoma
+PAT_880,1673,False,False,GERMANY,GERMANY,83,False,FEMALE,True,False,True,False,2.0,FOREARM,10.0,8.0,ACK,True,False,False,False,False,True,PAT_880_1673_410.png,True,actinic keratosis
+PAT_948,1801,True,False,POMERANIA,POMERANIA,58,True,FEMALE,False,False,False,False,3.0,NOSE,3.0,2.0,BCC,False,True,False,False,True,True,PAT_948_1801_993.png,True,basal cell carcinoma
+PAT_21,982,False,False,GERMANY,GERMANY,56,False,FEMALE,True,False,False,False,2.0,ARM,7.0,6.0,BCC,True,UNK,False,UNK,True,False,PAT_21_982_266.png,True,basal cell carcinoma
+PAT_397,798,False,True,GERMANY,GERMANY,59,True,MALE,True,False,False,False,3.0,FOREARM,18.0,16.0,SCC,True,True,False,False,False,False,PAT_397_798_482.png,True,squamous cell carcinoma
+PAT_976,1837,False,False,POMERANIA,POMERANIA,85,True,FEMALE,False,False,True,True,3.0,EAR,35.0,25.0,BCC,False,True,False,True,True,True,PAT_976_1837_861.png,True,basal cell carcinoma
+PAT_645,1223,False,False,GERMANY,GERMANY,57,True,FEMALE,True,False,False,False,3.0,CHEST,10.0,5.0,BCC,False,True,False,True,True,True,PAT_645_1223_124.png,True,basal cell carcinoma
+PAT_185,285,False,True,GERMANY,GERMANY,62,False,MALE,False,True,True,False,2.0,ARM,11.0,9.0,BCC,True,True,True,False,True,True,PAT_185_285_862.png,True,basal cell carcinoma
+PAT_495,941,False,False,POMERANIA,POMERANIA,58,True,MALE,False,True,True,True,2.0,BACK,14.0,11.0,MEL,False,UNK,False,True,False,False,PAT_495_941_26.png,True,melanoma
+PAT_535,1012,False,False,CZECH,GERMANY,56,False,FEMALE,True,True,True,True,1.0,FOREARM,12.0,7.0,BCC,True,UNK,False,UNK,False,True,PAT_535_1012_145.png,True,basal cell carcinoma
+PAT_524,987,False,False,UNK,ITALY,50,True,MALE,True,False,False,False,2.0,BACK,8.0,7.0,BCC,True,UNK,False,UNK,False,True,PAT_524_987_738.png,True,basal cell carcinoma
+PAT_381,775,False,True,GERMANY,GERMANY,59,True,MALE,False,False,False,False,3.0,BACK,18.0,18.0,BCC,True,True,True,False,True,True,PAT_381_775_566.png,True,basal cell carcinoma
+PAT_1774,3352,,,,,67,,,,,,,,FACE,,,ACK,True,False,False,False,False,True,PAT_1774_3352_474.png,False,actinic keratosis
+PAT_79,120,False,False,POMERANIA,POMERANIA,63,False,FEMALE,False,False,True,True,2.0,FACE,7.0,5.0,BCC,False,False,False,False,False,False,PAT_79_120_739.png,True,basal cell carcinoma
+PAT_666,1268,False,False,POMERANIA,POMERANIA,57,False,MALE,True,False,True,True,3.0,FOREARM,14.0,11.0,BCC,True,UNK,True,UNK,True,True,PAT_666_1268_870.png,True,basal cell carcinoma
+PAT_364,749,True,False,GERMANY,PORTUGAL,66,False,FEMALE,True,False,False,False,2.0,BACK,20.0,16.0,BCC,True,False,True,False,True,True,PAT_364_749_377.png,True,basal cell carcinoma
+PAT_576,1089,False,False,ITALY,GERMANY,53,False,FEMALE,False,False,True,True,3.0,THIGH,6.0,2.0,BCC,True,UNK,False,UNK,False,True,PAT_576_1089_435.png,True,basal cell carcinoma
+PAT_952,1807,True,False,ITALY,ITALY,57,True,MALE,False,False,True,True,2.0,CHEST,5.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_952_1807_58.png,True,basal cell carcinoma
+PAT_485,928,False,False,POMERANIA,POMERANIA,74,False,FEMALE,False,False,True,False,2.0,ARM,14.0,9.0,BCC,True,UNK,False,UNK,False,False,PAT_485_928_796.png,True,basal cell carcinoma
+PAT_315,673,False,False,POMERANIA,GERMANY,22,True,FEMALE,True,False,False,False,3.0,CHEST,6.0,3.0,BCC,True,False,False,False,True,True,PAT_315_673_227.png,True,basal cell carcinoma
+PAT_1071,313,,,,,55,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_1071_313_789.png,False,actinic keratosis
+PAT_59,94,True,False,BRAZIL,BRAZIL,72,False,FEMALE,False,False,True,False,2.0,FACE,18.0,15.0,ACK,True,False,False,False,False,True,PAT_59_94_849.png,True,actinic keratosis
+PAT_1324,1145,,,,,67,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1324_1145_309.png,False,actinic keratosis
+PAT_2122,4642,,,,,62,,,,,,,,ARM,,,ACK,False,False,False,False,False,False,PAT_2122_4642_680.png,False,actinic keratosis
+PAT_886,1684,False,False,GERMANY,UNK,70,False,FEMALE,False,False,True,True,3.0,ARM,10.0,6.0,ACK,False,True,True,True,False,True,PAT_886_1684_297.png,True,actinic keratosis
+PAT_270,1386,False,False,POMERANIA,POMERANIA,90,False,FEMALE,False,True,False,False,1.0,FACE,13.0,7.0,ACK,True,True,False,False,False,False,PAT_270_1386_755.png,False,actinic keratosis
+PAT_908,1726,False,True,GERMANY,GERMANY,63,True,MALE,True,True,True,True,2.0,CHEST,22.0,25.0,SCC,False,UNK,False,UNK,False,False,PAT_908_1726_939.png,True,squamous cell carcinoma
+PAT_666,1271,False,False,POMERANIA,POMERANIA,57,False,MALE,True,False,True,True,3.0,BACK,9.0,9.0,BCC,True,UNK,True,UNK,False,True,PAT_666_1271_645.png,True,basal cell carcinoma
+PAT_585,1130,True,True,POMERANIA,POMERANIA,59,False,MALE,False,False,False,False,3.0,ABDOMEN,5.0,5.0,ACK,True,True,False,False,True,True,PAT_585_1130_474.png,True,actinic keratosis
+PAT_464,1794,False,False,GERMANY,GERMANY,75,True,FEMALE,True,True,False,False,3.0,NECK,25.0,13.0,BCC,False,True,True,False,False,False,PAT_464_1794_78.png,True,basal cell carcinoma
+PAT_380,773,False,False,NETHERLANDS,GERMANY,59,True,MALE,False,True,True,True,2.0,BACK,21.0,20.0,BCC,True,False,False,False,False,False,PAT_380_773_542.png,True,basal cell carcinoma
+PAT_1665,2978,,,,,69,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_1665_2978_578.png,False,actinic keratosis
+PAT_600,1141,True,False,ITALY,ITALY,83,False,FEMALE,False,True,True,True,2.0,NECK,10.0,7.0,SCC,True,True,False,True,False,True,PAT_600_1141_542.png,True,squamous cell carcinoma
+PAT_1428,1489,,,,,68,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1428_1489_38.png,False,actinic keratosis
+PAT_131,197,False,False,GERMANY,GERMANY,90,False,FEMALE,True,True,True,True,2.0,FOREARM,17.0,15.0,SCC,True,True,True,False,True,True,PAT_131_197_974.png,True,squamous cell carcinoma
+PAT_170,264,False,False,ITALY,ITALY,60,True,FEMALE,True,False,True,True,2.0,FACE,4.0,3.0,BCC,True,True,False,False,False,True,PAT_170_264_785.png,True,basal cell carcinoma
+PAT_192,295,False,False,ITALY,ITALY,74,True,MALE,False,False,True,True,2.0,FACE,15.0,7.0,BCC,False,True,False,True,False,True,PAT_192_295_164.png,True,basal cell carcinoma
+PAT_93,142,False,True,UNK,UNK,90,False,MALE,False,False,True,True,4.0,FOREARM,8.0,6.0,SCC,UNK,UNK,True,UNK,False,True,PAT_93_142_269.png,True,squamous cell carcinoma
+PAT_831,1570,False,False,ITALY,ITALY,72,False,FEMALE,False,False,True,True,3.0,HAND,10.0,7.0,ACK,True,True,False,True,False,True,PAT_831_1570_991.png,True,actinic keratosis
+PAT_792,1498,False,True,BRAZIL,BRAZIL,58,True,FEMALE,False,False,True,True,5.0,ARM,5.0,5.0,ACK,True,False,False,False,False,True,PAT_792_1498_936.png,True,actinic keratosis
+PAT_291,446,False,True,BRAZIL,ITALY,58,False,MALE,True,False,False,False,4.0,NOSE,10.0,10.0,BCC,True,False,True,False,True,False,PAT_291_446_704.png,True,basal cell carcinoma
+PAT_551,1047,False,True,GERMANY,NETHERLANDS,66,True,MALE,False,True,True,False,1.0,FACE,5.0,5.0,BCC,False,True,False,False,False,True,PAT_551_1047_567.png,True,basal cell carcinoma
+PAT_1057,242,,,,,47,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1057_242_297.png,False,actinic keratosis
+PAT_259,399,False,False,POMERANIA,POMERANIA,92,False,FEMALE,False,True,False,False,1.0,NOSE,5.0,3.0,SCC,True,True,False,False,False,True,PAT_259_399_801.png,True,squamous cell carcinoma
+PAT_738,1397,False,False,POMERANIA,POMERANIA,58,True,FEMALE,True,True,False,True,2.0,FACE,3.0,3.0,BCC,False,False,False,False,True,True,PAT_738_1397_966.png,True,basal cell carcinoma
+PAT_286,1458,False,False,POMERANIA,POMERANIA,55,True,FEMALE,True,False,False,False,2.0,ARM,5.0,5.0,ACK,True,False,False,False,False,False,PAT_286_1458_381.png,False,actinic keratosis
+PAT_161,250,False,False,GERMANY,GERMANY,86,False,FEMALE,False,True,False,False,2.0,ARM,14.0,12.0,BCC,True,False,False,False,False,False,PAT_161_250_338.png,True,basal cell carcinoma
+PAT_895,1699,False,False,GERMANY,PORTUGAL,65,False,FEMALE,False,False,False,False,2.0,ARM,15.0,10.0,MEL,False,UNK,False,UNK,False,False,PAT_895_1699_872.png,True,melanoma
+PAT_545,1030,False,False,UNK,UNK,37,True,MALE,True,True,True,True,2.0,ABDOMEN,10.0,5.0,BCC,True,UNK,False,UNK,False,True,PAT_545_1030_854.png,True,basal cell carcinoma
+PAT_145,216,False,False,POMERANIA,POMERANIA,68,False,FEMALE,False,True,False,True,2.0,NOSE,8.0,5.0,BCC,True,True,True,True,True,False,PAT_145_216_158.png,True,basal cell carcinoma
+PAT_214,329,False,False,GERMANY,UNK,73,True,MALE,True,True,False,False,2.0,FOREARM,15.0,10.0,BCC,True,False,True,False,True,True,PAT_214_329_70.png,True,basal cell carcinoma
+PAT_1124,489,,,,,55,,,,,,,,BACK,,,ACK,True,False,False,False,False,False,PAT_1124_489_151.png,False,actinic keratosis
+PAT_513,964,True,False,BRAZIL,BRAZIL,67,True,MALE,False,True,True,True,1.0,BACK,12.0,9.0,BCC,True,False,True,False,True,True,PAT_513_964_343.png,True,basal cell carcinoma
+PAT_108,162,False,False,POMERANIA,POMERANIA,68,True,MALE,True,True,True,True,2.0,FACE,5.0,3.0,ACK,True,True,False,False,False,True,PAT_108_162_660.png,True,actinic keratosis
+PAT_1031,148,,,,,35,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1031_148_29.png,False,actinic keratosis
+PAT_974,1841,False,False,POMERANIA,POMERANIA,61,True,FEMALE,False,False,False,True,3.0,HAND,4.0,3.0,BCC,True,UNK,UNK,UNK,False,True,PAT_974_1841_693.png,True,basal cell carcinoma
+PAT_580,1104,False,False,GERMANY,GERMANY,57,False,FEMALE,True,False,True,True,3.0,NECK,2.0,1.0,BCC,True,True,False,True,False,True,PAT_580_1104_684.png,True,basal cell carcinoma
+PAT_207,313,True,False,PORTUGAL,PORTUGAL,79,True,MALE,False,False,True,True,3.0,CHEST,25.0,13.0,BCC,True,True,False,False,False,True,PAT_207_313_709.png,True,basal cell carcinoma
+PAT_493,3016,False,True,POMERANIA,POMERANIA,46,True,MALE,True,False,False,False,2.0,ARM,7.0,5.0,ACK,True,False,False,False,False,True,PAT_493_3016_512.png,False,actinic keratosis
+PAT_631,1227,False,True,UNK,ITALY,64,False,MALE,True,True,True,False,2.0,FACE,0.0,0.0,BCC,True,True,True,False,True,True,PAT_631_1227_585.png,True,basal cell carcinoma
+PAT_1393,1355,,,,,65,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1393_1355_270.png,False,actinic keratosis
+PAT_521,984,False,False,GERMANY,GERMANY,32,True,MALE,True,False,True,True,2.0,NOSE,5.0,5.0,BCC,True,True,True,False,True,True,PAT_521_984_412.png,True,basal cell carcinoma
+PAT_2009,4134,,,,,80,,,,,,,,NECK,,,ACK,True,False,False,False,False,False,PAT_2009_4134_828.png,False,actinic keratosis
+PAT_879,1676,False,False,UNK,ITALY,71,False,MALE,False,False,False,False,3.0,FACE,6.0,4.0,BCC,True,UNK,False,UNK,True,False,PAT_879_1676_668.png,True,basal cell carcinoma
+PAT_757,1431,False,False,GERMANY,GERMANY,77,False,MALE,True,False,True,True,2.0,NECK,10.0,9.0,ACK,True,True,False,True,True,True,PAT_757_1431_696.png,True,actinic keratosis
+PAT_770,1451,False,False,BRAZIL,BRAZIL,79,True,MALE,False,False,True,True,5.0,FACE,40.0,5.0,SCC,True,True,True,False,True,True,PAT_770_1451_136.png,True,squamous cell carcinoma
+PAT_264,405,False,False,POMERANIA,POMERANIA,83,False,FEMALE,False,False,False,False,2.0,NECK,17.0,15.0,BCC,False,UNK,False,UNK,False,True,PAT_264_405_118.png,True,basal cell carcinoma
+PAT_1881,3711,,,,,44,,,,,,,,HAND,,,ACK,False,False,False,False,False,False,PAT_1881_3711_217.png,False,actinic keratosis
+PAT_128,194,False,False,POMERANIA,POMERANIA,56,True,FEMALE,False,False,False,False,2.0,CHEST,9.0,6.0,BCC,True,True,False,False,False,True,PAT_128_194_144.png,True,basal cell carcinoma
+PAT_666,1269,False,False,POMERANIA,POMERANIA,57,False,MALE,True,False,True,True,3.0,ARM,20.0,8.0,BCC,True,UNK,True,UNK,True,True,PAT_666_1269_65.png,True,basal cell carcinoma
+PAT_307,659,False,False,ITALY,ITALY,77,False,FEMALE,False,False,False,False,2.0,LIP,10.0,3.0,SCC,True,False,True,False,False,True,PAT_307_659_85.png,True,squamous cell carcinoma
+PAT_1063,269,,,,,65,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1063_269_755.png,False,actinic keratosis
+PAT_817,1537,False,True,GERMANY,GERMANY,85,False,MALE,True,True,True,True,2.0,THIGH,11.0,10.0,BCC,False,True,False,True,False,True,PAT_817_1537_643.png,True,basal cell carcinoma
+PAT_255,388,False,False,GERMANY,GERMANY,68,True,MALE,False,True,False,False,2.0,FOREARM,11.0,8.0,BCC,True,True,False,False,True,True,PAT_255_388_77.png,True,basal cell carcinoma
+PAT_390,790,False,True,UNK,UNK,43,True,MALE,True,True,False,False,3.0,FACE,4.0,4.0,SCC,True,True,False,False,False,True,PAT_390_790_505.png,True,squamous cell carcinoma
+PAT_92,141,False,False,ITALY,ITALY,69,True,MALE,False,True,True,True,4.0,FOREARM,25.0,23.0,ACK,True,UNK,True,UNK,True,False,PAT_92_141_551.png,True,actinic keratosis
+PAT_981,1848,True,False,POMERANIA,POMERANIA,67,True,FEMALE,False,False,True,True,3.0,NOSE,3.0,3.0,BCC,False,UNK,False,UNK,False,False,PAT_981_1848_486.png,True,basal cell carcinoma
+PAT_1042,187,,,,,40,,,,,,,,HAND,,,ACK,False,False,False,False,False,False,PAT_1042_187_746.png,False,actinic keratosis
+PAT_1769,3342,,,,,77,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1769_3342_63.png,False,actinic keratosis
+PAT_853,1642,False,True,ITALY,ITALY,77,False,FEMALE,False,True,True,True,3.0,FACE,2.0,6.0,BCC,False,False,False,False,False,True,PAT_853_1642_497.png,True,basal cell carcinoma
+PAT_108,161,False,False,POMERANIA,POMERANIA,68,True,MALE,True,True,True,True,2.0,FOREARM,11.0,7.0,SCC,True,True,True,True,True,True,PAT_108_161_423.png,True,squamous cell carcinoma
+PAT_211,319,False,False,GERMANY,GERMANY,72,False,MALE,True,False,False,False,3.0,CHEST,20.0,18.0,BCC,True,True,False,False,True,True,PAT_211_319_777.png,True,basal cell carcinoma
+PAT_766,1444,False,False,ITALY,ITALY,63,True,MALE,False,False,False,False,3.0,EAR,6.0,6.0,BCC,False,False,False,False,False,False,PAT_766_1444_52.png,True,basal cell carcinoma
+PAT_645,1222,False,False,GERMANY,GERMANY,57,True,FEMALE,True,False,False,False,3.0,HAND,9.0,9.0,BCC,False,True,False,False,True,True,PAT_645_1222_140.png,True,basal cell carcinoma
+PAT_109,868,True,True,ITALY,ITALY,82,True,MALE,False,True,False,False,2.0,EAR,6.0,6.0,MEL,False,True,False,True,False,False,PAT_109_868_723.png,True,melanoma
+PAT_851,4519,False,False,POMERANIA,POMERANIA,77,False,FEMALE,True,True,True,True,3.0,FACE,25.0,10.0,ACK,True,False,False,False,False,False,PAT_851_4519_488.png,False,actinic keratosis
+PAT_467,904,False,False,POMERANIA,POMERANIA,46,True,FEMALE,False,False,True,False,2.0,BACK,10.0,5.0,BCC,True,True,False,False,False,True,PAT_467_904_235.png,True,basal cell carcinoma
+PAT_1347,1226,,,,,64,,,,,,,,NECK,,,ACK,True,False,False,False,False,False,PAT_1347_1226_928.png,False,actinic keratosis
+PAT_73,111,True,False,ITALY,BRAZIL,86,False,FEMALE,False,False,True,True,2.0,NOSE,13.0,10.0,BCC,True,UNK,False,UNK,False,True,PAT_73_111_435.png,True,basal cell carcinoma
+PAT_858,1633,False,False,ITALY,ITALY,73,False,FEMALE,True,False,True,True,2.0,FACE,5.0,5.0,BCC,True,UNK,False,UNK,False,True,PAT_858_1633_926.png,True,basal cell carcinoma
+PAT_652,1231,False,True,GERMANY,GERMANY,59,True,MALE,False,True,True,True,2.0,BACK,1.0,1.0,BCC,True,UNK,True,UNK,True,False,PAT_652_1231_516.png,True,basal cell carcinoma
+PAT_2061,4395,,,,,69,,,,,,,,FACE,,,ACK,True,True,False,True,False,False,PAT_2061_4395_587.png,False,actinic keratosis
+PAT_1374,1286,,,,,54,,,,,,,,CHEST,,,ACK,True,False,False,False,True,True,PAT_1374_1286_939.png,False,actinic keratosis
+PAT_930,1760,False,True,POMERANIA,POMERANIA,72,True,MALE,True,True,True,True,2.0,FOREARM,10.0,8.0,BCC,True,UNK,True,UNK,True,True,PAT_930_1760_560.png,True,basal cell carcinoma
+PAT_673,3928,False,False,NETHERLANDS,FRANCE,70,True,FEMALE,True,True,True,True,2.0,FACE,13.0,9.0,ACK,True,True,False,False,True,False,PAT_673_3928_888.png,False,actinic keratosis
+PAT_999,20,,,,,40,,,,,,,,ARM,,,ACK,True,False,False,False,True,False,PAT_999_20_540.png,False,actinic keratosis
+PAT_490,933,False,False,POMERANIA,POMERANIA,45,True,MALE,True,False,False,False,2.0,EAR,5.0,4.0,SCC,True,True,False,False,False,True,PAT_490_933_352.png,True,squamous cell carcinoma
+PAT_191,294,True,False,POMERANIA,POMERANIA,85,False,FEMALE,False,True,True,True,2.0,NOSE,13.0,3.0,BCC,True,True,True,False,True,True,PAT_191_294_629.png,True,basal cell carcinoma
+PAT_171,265,False,True,GERMANY,NETHERLANDS,78,False,FEMALE,False,False,True,True,2.0,FOREARM,20.0,15.0,BCC,True,UNK,True,UNK,True,True,PAT_171_265_757.png,True,basal cell carcinoma
+PAT_397,797,False,True,GERMANY,GERMANY,59,True,MALE,True,False,False,False,3.0,FACE,9.0,10.0,SCC,True,True,False,False,False,False,PAT_397_797_742.png,True,squamous cell carcinoma
+PAT_289,442,True,False,POMERANIA,POMERANIA,56,True,MALE,False,True,False,False,2.0,NOSE,6.0,4.0,ACK,False,False,True,False,False,False,PAT_289_442_43.png,True,actinic keratosis
+PAT_1035,165,,,,,47,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_1035_165_800.png,False,actinic keratosis
+PAT_46,879,False,False,POMERANIA,POMERANIA,55,False,FEMALE,True,True,True,True,3.0,CHEST,10.0,10.0,BCC,True,True,False,True,False,False,PAT_46_879_225.png,True,basal cell carcinoma
+PAT_63,98,False,False,BRAZIL,NORWAY,35,False,FEMALE,False,True,True,True,2.0,FACE,11.0,7.0,BCC,False,False,False,False,False,True,PAT_63_98_187.png,True,basal cell carcinoma
+PAT_378,770,True,True,BRAZIL,BRAZIL,71,False,MALE,False,True,False,False,2.0,FACE,7.0,6.0,BCC,True,False,True,False,True,True,PAT_378_770_302.png,True,basal cell carcinoma
+PAT_108,162,False,False,POMERANIA,POMERANIA,68,True,MALE,True,True,True,True,2.0,FACE,5.0,3.0,ACK,True,True,False,False,False,True,PAT_108_162_526.png,True,actinic keratosis
+PAT_381,775,False,True,GERMANY,GERMANY,59,True,MALE,False,False,False,False,3.0,BACK,18.0,18.0,BCC,True,True,True,False,True,True,PAT_381_775_253.png,True,basal cell carcinoma
+PAT_467,904,False,False,POMERANIA,POMERANIA,46,True,FEMALE,False,False,True,False,2.0,BACK,10.0,5.0,BCC,True,True,False,False,False,True,PAT_467_904_776.png,True,basal cell carcinoma
+PAT_723,1396,False,False,GERMANY,GERMANY,63,False,FEMALE,True,False,True,True,2.0,FACE,9.0,5.0,BCC,True,UNK,False,UNK,False,True,PAT_723_1396_338.png,True,basal cell carcinoma
+PAT_1866,3660,,,,,77,,,,,,,,FACE,,,ACK,True,False,True,False,False,False,PAT_1866_3660_115.png,False,actinic keratosis
+PAT_753,1427,False,False,GERMANY,GERMANY,61,False,FEMALE,False,True,True,True,3.0,FACE,5.0,5.0,ACK,False,True,False,True,False,True,PAT_753_1427_658.png,True,actinic keratosis
+PAT_279,429,False,True,POMERANIA,POMERANIA,51,True,MALE,False,True,False,False,2.0,CHEST,23.0,13.0,BCC,True,False,True,False,True,True,PAT_279_429_142.png,True,basal cell carcinoma
+PAT_270,416,False,False,POMERANIA,POMERANIA,90,False,FEMALE,False,True,False,False,1.0,FACE,7.0,5.0,BCC,True,False,False,False,False,True,PAT_270_416_398.png,True,basal cell carcinoma
+PAT_974,1842,False,False,POMERANIA,POMERANIA,61,True,FEMALE,False,False,False,True,3.0,HAND,5.0,4.0,SCC,True,UNK,True,UNK,False,True,PAT_974_1842_574.png,True,squamous cell carcinoma
+PAT_527,1359,True,True,GERMANY,GERMANY,60,True,MALE,True,False,True,True,1.0,ARM,15.0,10.0,SCC,True,UNK,False,UNK,False,True,PAT_527_1359_165.png,True,squamous cell carcinoma
+PAT_1715,3186,,,,,67,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1715_3186_948.png,False,actinic keratosis
+PAT_1369,1269,,,,,62,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1369_1269_370.png,False,actinic keratosis
+PAT_301,649,False,False,ITALY,ITALY,75,False,FEMALE,True,False,True,True,2.0,CHEST,24.0,18.0,BCC,True,UNK,True,UNK,True,True,PAT_301_649_533.png,True,basal cell carcinoma
+PAT_645,1224,False,False,GERMANY,GERMANY,57,True,FEMALE,True,False,False,False,3.0,FACE,11.0,10.0,BCC,False,True,False,True,True,True,PAT_645_1224_768.png,True,basal cell carcinoma
+PAT_1014,85,,,,,41,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1014_85_22.png,False,actinic keratosis
+PAT_872,1707,False,False,GERMANY,GERMANY,71,False,FEMALE,False,False,False,True,2.0,EAR,20.0,10.0,BCC,True,UNK,False,UNK,False,True,PAT_872_1707_638.png,True,basal cell carcinoma
+PAT_858,1631,False,False,ITALY,ITALY,73,False,FEMALE,True,False,True,True,2.0,FACE,25.0,20.0,BCC,True,UNK,True,UNK,True,True,PAT_858_1631_427.png,True,basal cell carcinoma
+PAT_48,74,False,False,BRAZIL,BRAZIL,73,False,FEMALE,False,True,True,True,3.0,ARM,10.0,7.0,SCC,False,True,False,False,False,True,PAT_48_74_402.png,True,squamous cell carcinoma
+PAT_112,168,True,False,POMERANIA,POMERANIA,69,False,MALE,True,False,False,False,1.0,EAR,11.0,11.0,BCC,True,UNK,True,UNK,True,True,PAT_112_168_360.png,True,basal cell carcinoma
+PAT_65,101,False,False,BRASIL,GERMANY,61,False,FEMALE,False,True,True,True,2.0,ARM,10.0,10.0,ACK,False,False,False,False,False,False,PAT_65_101_847.png,True,actinic keratosis
+PAT_1119,472,,,,,60,,,,,,,,HAND,,,ACK,True,True,False,False,False,False,PAT_1119_472_513.png,False,actinic keratosis
+PAT_44,63,False,False,NETHERLANDS,GERMANY,60,False,FEMALE,False,True,False,False,1.0,FOOT,10.0,8.0,ACK,True,UNK,True,False,False,True,PAT_44_63_151.png,True,actinic keratosis
+PAT_2126,4654,,,,,45,,,,,,,,ARM,,,ACK,True,True,False,False,False,False,PAT_2126_4654_644.png,False,actinic keratosis
+PAT_882,1678,False,False,POMERANIA,POMERANIA,92,False,FEMALE,False,False,False,False,2.0,ARM,20.0,15.0,SCC,True,UNK,False,UNK,True,False,PAT_882_1678_192.png,True,squamous cell carcinoma
+PAT_394,794,False,True,POLAND,ITALY,74,False,MALE,True,True,True,True,2.0,EAR,7.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_394_794_235.png,True,basal cell carcinoma
+PAT_1565,2432,,,,,45,,,,,,,,HAND,,,ACK,True,False,False,False,False,True,PAT_1565_2432_808.png,False,actinic keratosis
+PAT_279,1393,False,True,POMERANIA,POMERANIA,52,True,MALE,False,True,False,False,2.0,BACK,12.0,6.0,BCC,True,False,True,False,True,True,PAT_279_1393_118.png,True,basal cell carcinoma
+PAT_211,319,False,False,GERMANY,GERMANY,72,False,MALE,True,False,False,False,3.0,CHEST,20.0,18.0,BCC,True,True,False,False,True,True,PAT_211_319_810.png,True,basal cell carcinoma
+PAT_864,1645,False,False,POMERANIA,POMERANIA,55,False,FEMALE,False,False,True,True,3.0,BACK,16.0,13.0,BCC,True,True,False,False,True,True,PAT_864_1645_639.png,True,basal cell carcinoma
+PAT_512,962,False,False,BRAZIL,GERMANY,67,True,MALE,False,False,True,True,2.0,FACE,10.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_512_962_998.png,True,basal cell carcinoma
+PAT_1483,1678,,,,,82,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1483_1678_850.png,False,actinic keratosis
+PAT_2102,4575,,,,,66,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_2102_4575_616.png,False,actinic keratosis
+PAT_326,690,False,False,POMERANIA,POMERANIA,58,True,FEMALE,True,True,False,False,3.0,FACE,5.0,4.0,BCC,True,False,False,False,False,True,PAT_326_690_797.png,True,basal cell carcinoma
+PAT_40,1026,False,False,GERMANY,GERMANY,43,False,FEMALE,True,False,False,False,1.0,BACK,11.0,8.0,BCC,True,False,False,False,False,True,PAT_40_1026_312.png,True,basal cell carcinoma
+PAT_948,1801,True,False,POMERANIA,POMERANIA,58,True,FEMALE,False,False,False,False,3.0,NOSE,3.0,2.0,BCC,False,True,False,False,True,True,PAT_948_1801_721.png,True,basal cell carcinoma
+PAT_57,90,False,False,BRAZIL,BRAZIL,75,False,FEMALE,False,False,True,True,2.0,BACK,6.0,6.0,ACK,True,False,False,False,False,False,PAT_57_90_910.png,True,actinic keratosis
+PAT_975,1834,False,True,POMERANIA,POMERANIA,21,True,MALE,True,False,True,True,2.0,BACK,20.0,10.0,MEL,False,True,False,False,False,False,PAT_975_1834_152.png,True,melanoma
+PAT_128,194,False,False,POMERANIA,POMERANIA,56,True,FEMALE,False,False,False,False,2.0,CHEST,9.0,6.0,BCC,True,True,False,False,False,True,PAT_128_194_28.png,True,basal cell carcinoma
+PAT_53,82,False,False,BRAZIL,BRAZIL,78,False,MALE,False,True,True,False,1.0,BACK,10.0,7.0,BCC,True,True,False,False,False,True,PAT_53_82_940.png,True,basal cell carcinoma
+PAT_713,1336,False,False,POMERANIA,POMERANIA,75,True,MALE,True,True,True,True,2.0,FOREARM,15.0,15.0,SCC,True,UNK,False,UNK,False,True,PAT_713_1336_159.png,True,squamous cell carcinoma
+PAT_153,1200,False,False,POMERANIA,POMERANIA,71,False,FEMALE,True,True,True,False,2.0,FACE,9.0,5.0,BCC,False,True,False,False,False,True,PAT_153_1200_541.png,True,basal cell carcinoma
+PAT_230,351,False,False,POMERANIA,POMERANIA,73,False,FEMALE,False,False,False,False,2.0,FOREARM,9.0,6.0,ACK,True,False,False,False,False,False,PAT_230_351_720.png,True,actinic keratosis
+PAT_1498,1716,,,,,68,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1498_1716_626.png,False,actinic keratosis
+PAT_431,850,False,False,GERMANY,GERMANY,70,False,FEMALE,False,True,False,False,2.0,FACE,10.0,7.0,BCC,True,UNK,True,UNK,True,True,PAT_431_850_472.png,True,basal cell carcinoma
+PAT_849,1612,False,False,BRAZIL,GERMANY,63,True,MALE,False,True,True,True,2.0,NECK,15.0,7.0,BCC,False,True,False,True,True,True,PAT_849_1612_143.png,True,basal cell carcinoma
+PAT_903,1719,False,False,ITALY,ITALY,66,False,FEMALE,False,False,True,True,2.0,FACE,8.0,7.0,BCC,True,UNK,False,UNK,False,True,PAT_903_1719_943.png,True,basal cell carcinoma
+PAT_202,307,False,False,ITALY,UNK,77,False,FEMALE,False,True,True,True,3.0,NOSE,4.0,3.0,BCC,True,True,False,False,True,True,PAT_202_307_424.png,True,basal cell carcinoma
+PAT_1369,1270,,,,,62,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1369_1270_496.png,False,actinic keratosis
+PAT_761,1435,False,False,GERMANY,GERMANY,80,False,FEMALE,True,True,True,True,3.0,FACE,15.0,10.0,BCC,True,UNK,False,UNK,True,True,PAT_761_1435_561.png,True,basal cell carcinoma
+PAT_1738,3260,,,,,73,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1738_3260_304.png,False,actinic keratosis
+PAT_49,75,False,False,PORTUGAL,NETHERLANDS,69,False,MALE,False,False,True,True,3.0,FOREARM,20.0,13.0,SCC,True,UNK,False,UNK,True,False,PAT_49_75_326.png,True,squamous cell carcinoma
+PAT_999,20,,,,,40,,,,,,,,ARM,,,ACK,True,False,False,False,True,False,PAT_999_20_583.png,False,actinic keratosis
+PAT_637,1434,True,True,BRAZIL,BRAZIL,69,False,MALE,False,True,True,True,2.0,BACK,7.0,7.0,SCC,False,False,False,False,False,True,PAT_637_1434_570.png,True,squamous cell carcinoma
+PAT_571,1097,False,False,POMERANIA,POMERANIA,47,False,FEMALE,False,True,False,False,3.0,FACE,19.0,10.0,ACK,True,False,False,False,False,False,PAT_571_1097_652.png,True,actinic keratosis
+PAT_202,916,False,False,ITALY,,78,False,FEMALE,False,True,True,True,3.0,FOREARM,11.0,6.0,ACK,True,False,False,False,False,False,PAT_202_916_612.png,False,actinic keratosis
+PAT_1170,608,,,,,41,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1170_608_367.png,False,actinic keratosis
+PAT_753,1428,False,False,GERMANY,GERMANY,61,False,FEMALE,False,True,True,True,3.0,NOSE,4.0,4.0,BCC,True,UNK,False,UNK,True,True,PAT_753_1428_451.png,True,basal cell carcinoma
+PAT_715,4072,False,True,POMERANIA,POMERANIA,80,True,MALE,False,True,True,True,2.0,HAND,3.0,2.0,ACK,False,False,False,False,False,True,PAT_715_4072_827.png,False,actinic keratosis
+PAT_630,1196,True,True,GERMANY,GERMANY,63,True,MALE,True,True,True,True,2.0,ARM,9.0,9.0,SCC,True,UNK,False,UNK,True,True,PAT_630_1196_710.png,True,squamous cell carcinoma
+PAT_1600,2685,,,,,69,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1600_2685_445.png,False,actinic keratosis
+PAT_2131,4683,,,,,69,,,,,,,,FOREARM,,,ACK,False,True,False,True,False,True,PAT_2131_4683_112.png,False,actinic keratosis
+PAT_757,4220,False,False,GERMANY,GERMANY,77,False,MALE,True,False,True,True,2.0,NECK,10.0,9.0,ACK,False,False,False,False,False,False,PAT_757_4220_942.png,False,actinic keratosis
+PAT_1280,972,,,,,60,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1280_972_727.png,False,actinic keratosis
+PAT_85,129,False,False,UNK,UNK,71,False,FEMALE,False,True,False,False,3.0,CHEST,4.0,3.0,ACK,False,True,False,False,False,True,PAT_85_129_225.png,True,actinic keratosis
+PAT_180,279,False,True,GERMANY,GERMANY,54,False,FEMALE,False,True,False,False,3.0,FOREARM,15.0,13.0,BCC,True,True,False,False,True,True,PAT_180_279_377.png,True,basal cell carcinoma
+PAT_529,994,True,True,GERMANY,GERMANY,75,True,MALE,True,False,True,True,1.0,EAR,5.0,4.0,BCC,True,False,True,False,True,True,PAT_529_994_419.png,True,basal cell carcinoma
+PAT_1432,1497,,,,,52,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1432_1497_328.png,False,actinic keratosis
+PAT_697,1317,False,False,UNK,UNK,70,False,FEMALE,True,False,True,True,2.0,BACK,14.0,13.0,BCC,True,UNK,False,UNK,False,True,PAT_697_1317_892.png,True,basal cell carcinoma
+PAT_835,1577,True,False,ITALY,ITALY,69,False,MALE,True,False,True,True,2.0,FACE,8.0,7.0,BCC,True,UNK,False,UNK,True,True,PAT_835_1577_938.png,True,basal cell carcinoma
+PAT_207,1280,True,False,PORTUGAL,PORTUGAL,80,True,MALE,False,False,True,True,3.0,FACE,15.0,12.0,BCC,True,False,False,False,True,True,PAT_207_1280_15.png,True,basal cell carcinoma
+PAT_242,368,True,True,GERMANY,GERMANY,45,False,FEMALE,True,True,True,True,2.0,CHEST,20.0,16.0,BCC,False,UNK,False,UNK,False,True,PAT_242_368_261.png,True,basal cell carcinoma
+PAT_1491,1703,,,,,80,,,,,,,,FOREARM,,,ACK,True,False,False,False,True,True,PAT_1491_1703_637.png,False,actinic keratosis
+PAT_1449,1554,,,,,67,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1449_1554_932.png,False,actinic keratosis
+PAT_1666,2985,,,,,61,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1666_2985_968.png,False,actinic keratosis
+PAT_305,655,False,False,ITALY,ITALY,79,False,MALE,False,False,True,True,2.0,FACE,5.0,4.0,BCC,True,False,True,False,False,True,PAT_305_655_30.png,True,basal cell carcinoma
+PAT_493,1862,False,True,POMERANIA,POMERANIA,47,True,MALE,True,False,False,False,2.0,EAR,7.0,5.0,BCC,True,False,True,False,True,True,PAT_493_1862_360.png,True,basal cell carcinoma
+PAT_204,310,False,True,GERMANY,POMERANIA,62,False,MALE,True,True,True,True,2.0,NOSE,5.0,4.0,BCC,True,UNK,True,UNK,True,True,PAT_204_310_975.png,True,basal cell carcinoma
+PAT_788,1503,False,False,ITALY,ITALY,60,True,FEMALE,False,False,True,False,4.0,FACE,17.0,7.0,BCC,False,True,False,False,False,True,PAT_788_1503_168.png,True,basal cell carcinoma
+PAT_86,1109,False,False,POMERANIA,POMERANIA,53,False,FEMALE,True,False,True,True,2.0,HAND,7.0,6.0,BCC,True,True,True,False,True,True,PAT_86_1109_306.png,True,basal cell carcinoma
+PAT_812,1625,False,False,GERMANY,GERMANY,61,False,FEMALE,False,False,True,True,2.0,NECK,9.0,8.0,BCC,False,UNK,False,UNK,False,True,PAT_812_1625_430.png,True,basal cell carcinoma
+PAT_86,1082,False,False,POMERANIA,POMERANIA,53,False,FEMALE,True,False,True,True,2.0,FOREARM,20.0,15.0,ACK,True,True,True,False,True,True,PAT_86_1082_41.png,True,actinic keratosis
+PAT_886,4635,False,False,GERMANY,,70,False,FEMALE,False,False,True,True,3.0,ARM,10.0,6.0,ACK,True,True,False,True,False,False,PAT_886_4635_304.png,False,actinic keratosis
+PAT_15,23,False,True,GERMANY,GERMANY,56,False,FEMALE,True,True,False,True,2.0,CHEST,9.0,8.0,BCC,True,UNK,False,UNK,True,False,PAT_15_23_240.png,True,basal cell carcinoma
+PAT_196,300,False,False,ITALY,ITALY,68,False,FEMALE,True,True,True,True,3.0,ARM,12.0,11.0,BCC,True,UNK,False,UNK,False,True,PAT_196_300_749.png,True,basal cell carcinoma
+PAT_499,945,False,False,GERMANY,GERMANY,74,True,MALE,False,False,True,True,2.0,ARM,12.0,10.0,BCC,True,UNK,False,UNK,UNK,True,PAT_499_945_878.png,True,basal cell carcinoma
+PAT_1575,2516,,,,,75,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1575_2516_23.png,False,actinic keratosis
+PAT_230,1008,False,False,POMERANIA,POMERANIA,73,False,FEMALE,False,False,False,False,2.0,FOREARM,9.0,6.0,ACK,True,True,False,False,True,False,PAT_230_1008_673.png,False,actinic keratosis
+PAT_1403,1392,,,,,50,,,,,,,,NOSE,,,ACK,False,False,False,False,False,False,PAT_1403_1392_407.png,False,actinic keratosis
+PAT_537,1014,True,True,BRAZIL,BRAZIL,62,True,MALE,False,False,True,True,2.0,HAND,8.0,7.0,SCC,False,False,True,False,False,True,PAT_537_1014_961.png,True,squamous cell carcinoma
+PAT_382,776,False,True,POMERANIA,GERMANY,36,True,FEMALE,False,True,False,False,1.0,CHEST,7.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_382_776_986.png,True,basal cell carcinoma
+PAT_735,1391,False,False,POMERANIA,POMERANIA,68,True,MALE,False,False,True,True,2.0,FOREARM,10.0,10.0,ACK,True,True,False,False,True,True,PAT_735_1391_683.png,True,actinic keratosis
+PAT_221,339,False,False,POMERANIA,POMERANIA,66,False,FEMALE,True,True,False,False,3.0,FACE,9.0,6.0,BCC,True,True,False,False,False,True,PAT_221_339_951.png,True,basal cell carcinoma
+PAT_109,868,True,True,ITALY,ITALY,82,True,MALE,False,True,False,False,2.0,EAR,6.0,6.0,MEL,False,True,False,True,False,False,PAT_109_868_113.png,True,melanoma
+PAT_549,1043,False,False,BRAZIL,BRAZIL,85,False,MALE,False,False,True,False,2.0,NECK,30.0,24.0,SCC,True,True,False,False,False,True,PAT_549_1043_36.png,True,squamous cell carcinoma
+PAT_2034,4268,,,,,65,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_2034_4268_141.png,False,actinic keratosis
+PAT_8,15,False,False,GERMANY,GERMANY,53,True,MALE,True,False,True,True,2.0,CHEST,11.0,7.0,BCC,True,UNK,True,UNK,True,True,PAT_8_15_820.png,True,basal cell carcinoma
+PAT_86,1109,False,False,POMERANIA,POMERANIA,53,False,FEMALE,True,False,True,True,2.0,HAND,7.0,6.0,BCC,True,True,True,False,True,True,PAT_86_1109_164.png,True,basal cell carcinoma
+PAT_540,1016,True,True,GERMANY,NETHERLANDS,70,True,FEMALE,True,True,True,True,1.0,NOSE,7.0,5.0,BCC,True,True,True,False,True,True,PAT_540_1016_644.png,True,basal cell carcinoma
+PAT_1479,1669,,,,,39,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1479_1669_376.png,False,actinic keratosis
+PAT_744,1405,False,False,GERMANY,GERMANY,90,False,MALE,False,True,True,True,2.0,FACE,16.0,5.0,BCC,True,True,False,False,False,True,PAT_744_1405_742.png,True,basal cell carcinoma
+PAT_814,1532,False,True,POMERANIA,POMERANIA,63,True,MALE,False,True,True,True,2.0,CHEST,40.0,20.0,BCC,True,True,True,False,True,True,PAT_814_1532_265.png,True,basal cell carcinoma
+PAT_253,384,False,True,AUSTRIA,GERMANY,47,True,MALE,True,True,False,False,2.0,FACE,10.0,10.0,BCC,True,True,False,False,True,True,PAT_253_384_607.png,True,basal cell carcinoma
+PAT_53,1370,False,False,BRAZIL,BRAZIL,80,False,MALE,False,True,True,False,1.0,CHEST,20.0,18.0,BCC,True,True,False,False,False,True,PAT_53_1370_288.png,True,basal cell carcinoma
+PAT_835,1578,True,False,ITALY,ITALY,69,False,MALE,True,False,True,True,2.0,BACK,14.0,11.0,BCC,True,False,False,False,False,True,PAT_835_1578_592.png,True,basal cell carcinoma
+PAT_709,1331,False,True,UNK,UNK,61,False,MALE,False,False,True,True,2.0,FACE,10.0,9.0,BCC,True,UNK,False,UNK,False,True,PAT_709_1331_253.png,True,basal cell carcinoma
+PAT_184,284,False,False,ITALY,ITALY,71,False,MALE,False,False,True,True,3.0,ARM,5.0,3.0,ACK,False,True,False,False,False,True,PAT_184_284_721.png,True,actinic keratosis
+PAT_640,1210,False,True,GERMANY,GERMANY,57,True,MALE,True,False,True,False,2.0,FOREARM,5.0,5.0,BCC,True,UNK,True,UNK,True,True,PAT_640_1210_293.png,True,basal cell carcinoma
+PAT_1708,3153,,,,,73,,,,,,,,FACE,,,ACK,True,True,False,False,False,False,PAT_1708_3153_799.png,False,actinic keratosis
+PAT_407,810,False,True,POMERANIA,POMERANIA,47,True,MALE,False,True,False,False,2.0,FACE,7.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_407_810_390.png,True,basal cell carcinoma
+PAT_63,99,False,False,BRAZIL,NORWAY,35,False,FEMALE,False,True,True,True,2.0,NECK,5.0,5.0,BCC,True,True,True,False,True,True,PAT_63_99_189.png,True,basal cell carcinoma
+PAT_90,138,False,False,POMERANIA,POMERANIA,73,False,FEMALE,False,True,True,True,3.0,FACE,7.0,6.0,BCC,True,True,True,False,True,False,PAT_90_138_369.png,True,basal cell carcinoma
+PAT_705,1326,False,True,GERMANY,GERMANY,58,True,FEMALE,True,True,True,True,1.0,FOREARM,9.0,7.0,SCC,True,True,False,False,False,True,PAT_705_1326_82.png,True,squamous cell carcinoma
+PAT_715,4073,False,True,POMERANIA,POMERANIA,80,True,MALE,False,True,True,True,2.0,HAND,3.0,2.0,ACK,False,False,False,False,False,True,PAT_715_4073_115.png,False,actinic keratosis
+PAT_68,105,False,False,ITALY,ITALY,59,False,FEMALE,False,True,True,False,2.0,FACE,8.0,7.0,BCC,False,True,False,False,False,True,PAT_68_105_871.png,True,basal cell carcinoma
+PAT_1689,3075,,,,,42,,,,,,,,ARM,,,ACK,True,False,False,False,False,True,PAT_1689_3075_38.png,False,actinic keratosis
+PAT_1415,1439,,,,,77,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,False,PAT_1415_1439_295.png,False,actinic keratosis
+PAT_63,99,False,False,BRAZIL,NORWAY,35,False,FEMALE,False,True,True,True,2.0,NECK,5.0,5.0,BCC,True,True,True,False,True,True,PAT_63_99_736.png,True,basal cell carcinoma
+PAT_464,899,False,False,GERMANY,GERMANY,74,True,FEMALE,True,True,False,False,3.0,LIP,7.0,5.0,BCC,True,UNK,True,UNK,True,True,PAT_464_899_646.png,True,basal cell carcinoma
+PAT_1707,3148,,,,,75,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_1707_3148_835.png,False,actinic keratosis
+PAT_961,1818,False,False,UNK,UNK,71,True,MALE,False,True,True,True,4.0,THIGH,21.0,20.0,ACK,True,False,False,False,False,True,PAT_961_1818_992.png,True,actinic keratosis
+PAT_683,1296,True,False,POMERANIA,POLAND,74,True,MALE,False,True,True,True,2.0,LIP,6.0,5.0,BCC,True,UNK,False,UNK,False,True,PAT_683_1296_237.png,True,basal cell carcinoma
+PAT_108,424,False,False,POMERANIA,POMERANIA,69,True,MALE,True,True,True,True,2.0,HAND,5.0,3.0,ACK,True,True,False,False,False,True,PAT_108_424_944.png,False,actinic keratosis
+PAT_558,1072,False,False,GERMANY,GERMANY,57,True,FEMALE,False,True,True,True,3.0,NOSE,9.0,12.0,BCC,True,True,True,False,True,True,PAT_558_1072_486.png,True,basal cell carcinoma
+PAT_834,4490,False,False,GERMANY,GERMANY,81,False,MALE,True,True,True,False,2.0,ARM,10.0,9.0,ACK,False,False,False,False,False,False,PAT_834_4490_317.png,False,actinic keratosis
+PAT_97,151,False,False,GERMANY,GERMANY,47,True,MALE,False,False,True,False,2.0,CHEST,22.0,15.0,BCC,True,True,False,False,True,True,PAT_97_151_503.png,True,basal cell carcinoma
+PAT_690,1309,False,False,NETHERLANDS,UNK,58,False,FEMALE,True,True,True,True,3.0,NOSE,17.0,14.0,BCC,True,True,True,True,True,True,PAT_690_1309_217.png,True,basal cell carcinoma
+PAT_122,185,False,False,POMERANIA,POMERANIA,79,False,FEMALE,False,False,False,False,1.0,NECK,14.0,10.0,BCC,True,UNK,False,UNK,False,True,PAT_122_185_957.png,True,basal cell carcinoma
+PAT_884,1683,True,True,ITALY,ITALY,50,True,MALE,False,True,True,True,3.0,BACK,25.0,15.0,MEL,False,UNK,False,True,False,False,PAT_884_1683_538.png,True,melanoma
+PAT_824,1561,False,False,GERMANY,GERMANY,83,True,MALE,True,False,True,False,2.0,FOREARM,11.0,9.0,ACK,True,False,False,False,False,True,PAT_824_1561_796.png,True,actinic keratosis
+PAT_859,1638,False,False,GERMANY,GERMANY,81,False,FEMALE,True,True,False,False,3.0,ARM,11.0,8.0,SCC,True,UNK,False,UNK,False,False,PAT_859_1638_598.png,True,squamous cell carcinoma
+PAT_535,1011,False,False,CZECH,GERMANY,56,False,FEMALE,True,True,True,True,1.0,FOREARM,10.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_535_1011_567.png,True,basal cell carcinoma
+PAT_153,233,False,False,POMERANIA,POMERANIA,70,False,FEMALE,True,True,True,False,2.0,EAR,12.0,12.0,BCC,True,UNK,True,UNK,True,True,PAT_153_233_45.png,True,basal cell carcinoma
+PAT_796,1509,True,False,ITALY,ITALY,83,False,MALE,False,False,True,True,2.0,FOREARM,12.0,15.0,BCC,True,True,False,False,False,False,PAT_796_1509_459.png,True,basal cell carcinoma
+PAT_834,1572,False,False,GERMANY,GERMANY,81,False,MALE,True,True,True,False,2.0,FACE,9.0,8.0,SCC,False,False,False,False,False,True,PAT_834_1572_973.png,True,squamous cell carcinoma
+PAT_152,230,False,False,GERMANY,GERMANY,68,False,MALE,False,True,True,True,2.0,BACK,15.0,10.0,BCC,True,False,True,False,True,False,PAT_152_230_934.png,True,basal cell carcinoma
+PAT_75,114,False,False,GERMANY,GERMANY,50,True,MALE,True,False,True,True,2.0,NECK,15.0,10.0,BCC,True,UNK,True,UNK,True,True,PAT_75_114_73.png,True,basal cell carcinoma
+PAT_50,76,False,False,GERMANY,BRAZIL,81,False,FEMALE,True,False,True,True,2.0,BACK,7.0,18.0,BCC,True,True,False,False,True,True,PAT_50_76_296.png,True,basal cell carcinoma
+PAT_600,1141,True,False,ITALY,ITALY,83,False,FEMALE,False,True,True,True,2.0,NECK,10.0,7.0,SCC,True,True,False,True,False,True,PAT_600_1141_988.png,True,squamous cell carcinoma
+PAT_624,1180,False,False,ITALY,ITALY,75,False,FEMALE,True,True,True,True,2.0,FACE,9.0,6.0,BCC,True,UNK,True,UNK,True,True,PAT_624_1180_803.png,True,basal cell carcinoma
+PAT_800,1514,True,False,GERMANY,GERMANY,66,True,MALE,False,False,True,True,2.0,EAR,4.0,3.0,SCC,True,UNK,False,UNK,False,True,PAT_800_1514_512.png,True,squamous cell carcinoma
+PAT_994,1866,False,False,POMERANIA,POMERANIA,52,True,FEMALE,True,True,True,False,3.0,THIGH,11.0,8.0,BCC,True,True,False,False,True,False,PAT_994_1866_913.png,True,basal cell carcinoma
+PAT_557,1058,False,False,UNK,UNK,65,False,FEMALE,False,False,True,True,2.0,NOSE,9.0,7.0,BCC,False,UNK,False,UNK,False,True,PAT_557_1058_309.png,True,basal cell carcinoma
+PAT_1414,1431,,,,,75,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_1414_1431_754.png,False,actinic keratosis
+PAT_1130,501,,,,,42,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1130_501_181.png,False,actinic keratosis
+PAT_841,1603,False,True,POMERANIA,POMERANIA,54,False,MALE,False,False,True,True,3.0,FACE,6.0,5.0,BCC,True,UNK,False,UNK,True,True,PAT_841_1603_667.png,True,basal cell carcinoma
+PAT_1020,111,,,,,41,,,,,,,,CHEST,,,ACK,False,False,False,False,False,False,PAT_1020_111_593.png,False,actinic keratosis
+PAT_831,1570,False,False,ITALY,ITALY,72,False,FEMALE,False,False,True,True,3.0,HAND,10.0,7.0,ACK,True,True,False,True,False,True,PAT_831_1570_637.png,True,actinic keratosis
+PAT_183,283,False,False,UNK,UNK,76,False,MALE,True,False,False,False,3.0,CHEST,9.0,7.0,SCC,True,False,False,False,False,False,PAT_183_283_602.png,True,squamous cell carcinoma
+PAT_934,1778,False,False,POMERANIA,POMERANIA,68,True,MALE,False,False,True,True,2.0,FOREARM,15.0,10.0,SCC,False,UNK,False,UNK,False,False,PAT_934_1778_140.png,True,squamous cell carcinoma
+PAT_1531,1800,,,,,64,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1531_1800_683.png,False,actinic keratosis
+PAT_1370,1274,,,,,57,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_1370_1274_515.png,False,actinic keratosis
+PAT_862,1643,False,False,GERMANY,GERMANY,57,False,FEMALE,False,True,True,True,3.0,NOSE,2.0,1.0,ACK,True,True,False,False,False,False,PAT_862_1643_386.png,True,actinic keratosis
+PAT_56,86,False,False,GERMANY,GERMANY,70,False,FEMALE,False,True,True,True,2.0,ARM,24.0,20.0,SCC,True,True,True,False,True,False,PAT_56_86_802.png,True,squamous cell carcinoma
+PAT_1365,1253,,,,,48,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1365_1253_912.png,False,actinic keratosis
+PAT_1509,1742,,,,,80,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_1509_1742_422.png,False,actinic keratosis
+PAT_1374,1284,,,,,54,,,,,,,,FACE,,,ACK,True,False,False,False,True,False,PAT_1374_1284_208.png,False,actinic keratosis
+PAT_609,1159,True,True,POMERANIA,POMERANIA,61,True,MALE,False,False,False,False,2.0,NECK,14.0,8.0,BCC,False,True,False,False,True,True,PAT_609_1159_932.png,True,basal cell carcinoma
+PAT_1090,376,,,,,45,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1090_376_384.png,False,actinic keratosis
+PAT_370,2558,True,True,GERMANY,GERMANY,62,True,MALE,True,True,False,False,3.0,FOREARM,11.0,8.0,ACK,True,False,False,False,True,False,PAT_370_2558_175.png,False,actinic keratosis
+PAT_225,345,True,False,PORTUGAL,SPAIN,68,False,MALE,False,True,True,True,4.0,CHEST,10.0,8.0,ACK,True,False,False,False,False,False,PAT_225_345_903.png,True,actinic keratosis
+PAT_1371,1276,,,,,53,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_1371_1276_145.png,False,actinic keratosis
+PAT_475,913,False,False,GERMANY,GERMANY,52,False,FEMALE,True,False,True,True,2.0,NOSE,4.0,4.0,BCC,True,True,True,False,True,True,PAT_475_913_874.png,True,basal cell carcinoma
+PAT_1712,3173,,,,,66,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1712_3173_684.png,False,actinic keratosis
+PAT_258,397,False,False,GERMANY,POMERANIA,62,True,MALE,False,False,False,False,2.0,CHEST,1.2,1.2,BCC,True,False,True,False,True,True,PAT_258_397_198.png,True,basal cell carcinoma
+PAT_314,672,False,True,GERMANY,GERMANY,73,True,MALE,False,False,True,True,2.0,CHEST,5.0,3.0,BCC,True,False,False,False,False,True,PAT_314_672_909.png,True,basal cell carcinoma
+PAT_255,388,False,False,GERMANY,GERMANY,68,True,MALE,False,True,False,False,2.0,FOREARM,11.0,8.0,BCC,True,True,False,False,True,True,PAT_255_388_231.png,True,basal cell carcinoma
+PAT_2034,4269,,,,,65,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,False,PAT_2034_4269_670.png,False,actinic keratosis
+PAT_90,139,False,False,POMERANIA,POMERANIA,73,False,FEMALE,False,True,True,True,3.0,FACE,6.0,6.0,BCC,False,UNK,False,UNK,False,True,PAT_90_139_57.png,True,basal cell carcinoma
+PAT_817,4471,False,True,GERMANY,GERMANY,85,False,MALE,True,True,True,True,2.0,NECK,11.0,10.0,ACK,True,True,False,False,False,False,PAT_817_4471_179.png,False,actinic keratosis
+PAT_921,1750,False,True,GERMANY,GERMANY,62,False,MALE,False,True,True,True,2.0,NOSE,5.0,3.0,ACK,True,False,False,False,True,False,PAT_921_1750_313.png,True,actinic keratosis
+PAT_392,792,False,True,ITALY,ITALY,48,True,MALE,True,True,False,False,3.0,FACE,7.0,5.0,BCC,True,True,False,True,False,True,PAT_392_792_712.png,True,basal cell carcinoma
+PAT_633,1199,True,True,POMERANIA,POMERANIA,61,True,MALE,False,False,True,False,1.0,ABDOMEN,10.0,7.0,SCC,True,True,True,True,True,True,PAT_633_1199_218.png,True,squamous cell carcinoma
+PAT_53,1144,False,False,BRAZIL,BRAZIL,80,False,MALE,False,True,True,False,1.0,ARM,12.0,10.0,BCC,True,True,False,False,False,True,PAT_53_1144_892.png,True,basal cell carcinoma
+PAT_2119,4625,,,,,58,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_2119_4625_733.png,False,actinic keratosis
+PAT_816,1544,False,False,GERMANY,NETHERLANDS,60,False,MALE,True,False,True,False,3.0,CHEST,35.0,25.0,BCC,True,UNK,False,UNK,False,True,PAT_816_1544_933.png,True,basal cell carcinoma
+PAT_571,1096,False,False,POMERANIA,POMERANIA,47,False,FEMALE,False,True,False,False,3.0,FOREARM,15.0,13.0,BCC,True,UNK,True,UNK,True,True,PAT_571_1096_10.png,True,basal cell carcinoma
+PAT_59,93,True,False,BRAZIL,BRAZIL,72,False,FEMALE,False,False,True,False,2.0,ARM,23.0,15.0,BCC,True,False,False,False,False,False,PAT_59_93_342.png,True,basal cell carcinoma
+PAT_2098,4559,,,,,67,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_2098_4559_436.png,False,actinic keratosis
+PAT_1275,955,,,,,37,,,,,,,,FOREARM,,,ACK,True,True,False,False,False,False,PAT_1275_955_131.png,False,actinic keratosis
+PAT_796,1509,True,False,ITALY,ITALY,83,False,MALE,False,False,True,True,2.0,FOREARM,12.0,15.0,BCC,True,True,False,False,False,False,PAT_796_1509_400.png,True,basal cell carcinoma
+PAT_167,684,False,False,GERMANY,GERMANY,59,True,MALE,True,True,False,False,1.0,ARM,10.0,7.0,ACK,False,False,False,False,False,False,PAT_167_684_365.png,False,actinic keratosis
+PAT_535,1010,False,False,CZECH,GERMANY,56,False,FEMALE,True,True,True,True,1.0,FACE,6.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_535_1010_303.png,True,basal cell carcinoma
+PAT_150,1799,True,True,POMERANIA,POMERANIA,50,True,FEMALE,True,True,False,False,2.0,HAND,12.0,6.0,SCC,True,UNK,True,UNK,False,True,PAT_150_1799_644.png,True,squamous cell carcinoma
+PAT_192,296,False,False,ITALY,ITALY,74,True,MALE,False,False,True,True,2.0,FACE,10.0,10.0,SCC,True,True,False,True,False,False,PAT_192_296_824.png,True,squamous cell carcinoma
+PAT_142,210,False,False,POMERANIA,POMERANIA,78,False,FEMALE,True,True,False,False,1.0,FACE,6.0,5.0,BCC,True,UNK,False,UNK,False,True,PAT_142_210_904.png,True,basal cell carcinoma
+PAT_722,1376,True,False,POMERANIA,POMERANIA,65,True,MALE,True,False,True,True,2.0,CHEST,12.0,7.0,BCC,True,UNK,True,UNK,True,True,PAT_722_1376_280.png,True,basal cell carcinoma
+PAT_1170,609,,,,,41,,,,,,,,CHEST,,,ACK,True,False,True,False,False,False,PAT_1170_609_378.png,False,actinic keratosis
+PAT_845,1604,False,False,GERMANY,GERMANY,56,True,FEMALE,False,True,False,True,3.0,FACE,15.0,10.0,BCC,False,UNK,False,UNK,False,True,PAT_845_1604_313.png,True,basal cell carcinoma
+PAT_2122,4642,,,,,62,,,,,,,,ARM,,,ACK,False,False,False,False,False,False,PAT_2122_4642_204.png,False,actinic keratosis
+PAT_903,1720,False,False,ITALY,ITALY,66,False,FEMALE,False,False,True,True,2.0,FACE,3.0,2.0,BCC,True,UNK,False,UNK,False,True,PAT_903_1720_647.png,True,basal cell carcinoma
+PAT_2039,4290,,,,,58,,,,,,,,FOREARM,,,ACK,True,True,False,False,False,True,PAT_2039_4290_273.png,False,actinic keratosis
+PAT_1727,3233,,,,,89,,,,,,,,HAND,,,ACK,True,False,False,False,False,True,PAT_1727_3233_399.png,False,actinic keratosis
+PAT_272,419,False,False,POMERANIA,POMERANIA,83,False,FEMALE,False,False,False,False,2.0,FACE,15.0,12.0,BCC,False,False,False,False,False,True,PAT_272_419_906.png,True,basal cell carcinoma
+PAT_238,364,False,False,POMERANIA,POMERANIA,81,False,FEMALE,False,False,False,False,2.0,FOOT,16.0,14.0,ACK,True,False,False,False,False,False,PAT_238_364_387.png,True,actinic keratosis
+PAT_944,1795,False,True,POMERANIA,POMERANIA,31,True,MALE,False,False,True,True,3.0,FACE,10.0,7.0,BCC,False,True,False,False,True,True,PAT_944_1795_666.png,True,basal cell carcinoma
+PAT_490,933,False,False,POMERANIA,POMERANIA,45,True,MALE,True,False,False,False,2.0,EAR,5.0,4.0,SCC,True,True,False,False,False,True,PAT_490_933_17.png,True,squamous cell carcinoma
+PAT_180,279,False,True,GERMANY,GERMANY,54,False,FEMALE,False,True,False,False,3.0,FOREARM,15.0,13.0,BCC,True,True,False,False,True,True,PAT_180_279_746.png,True,basal cell carcinoma
+PAT_789,1483,False,False,GERMANY,GERMANY,70,True,MALE,True,False,True,True,3.0,BACK,15.0,7.0,BCC,True,True,True,False,False,True,PAT_789_1483_793.png,True,basal cell carcinoma
+PAT_1951,3934,,,,,79,,,,,,,,ARM,,,ACK,True,True,False,True,True,False,PAT_1951_3934_98.png,False,actinic keratosis
+PAT_1483,1678,,,,,82,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1483_1678_538.png,False,actinic keratosis
+PAT_711,4067,False,False,GERMANY,GERMANY,50,False,MALE,True,False,True,False,2.0,HAND,23.0,21.0,ACK,True,False,False,False,False,True,PAT_711_4067_260.png,False,actinic keratosis
+PAT_914,1740,False,False,GERMANY,GERMANY,74,False,FEMALE,False,False,True,True,2.0,HAND,6.0,6.0,ACK,True,False,False,False,False,True,PAT_914_1740_932.png,True,actinic keratosis
+PAT_53,81,False,False,BRAZIL,BRAZIL,78,False,MALE,False,True,True,False,1.0,FACE,11.0,10.0,BCC,True,False,False,False,False,False,PAT_53_81_522.png,True,basal cell carcinoma
+PAT_1370,1273,,,,,57,,,,,,,,FACE,,,ACK,True,True,False,False,False,True,PAT_1370_1273_41.png,False,actinic keratosis
+PAT_494,939,False,False,POMERANIA,POMERANIA,53,False,FEMALE,False,True,True,True,2.0,NOSE,6.0,4.0,BCC,True,UNK,False,UNK,UNK,False,PAT_494_939_518.png,True,basal cell carcinoma
+PAT_835,1578,True,False,ITALY,ITALY,69,False,MALE,True,False,True,True,2.0,BACK,14.0,11.0,BCC,True,False,False,False,False,True,PAT_835_1578_52.png,True,basal cell carcinoma
+PAT_325,689,False,False,ITALY,ITALY,55,False,FEMALE,False,True,True,True,3.0,BACK,11.0,7.0,SCC,True,False,False,False,False,True,PAT_325_689_528.png,True,squamous cell carcinoma
+PAT_1088,373,,,,,44,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1088_373_781.png,False,actinic keratosis
+PAT_27,38,False,False,ITALY,ITALY,70,False,FEMALE,True,True,True,True,2.0,HAND,15.0,13.0,ACK,UNK,UNK,False,False,False,True,PAT_27_38_240.png,True,actinic keratosis
+PAT_147,219,False,False,POMERANIA,POMERANIA,39,False,MALE,False,False,False,False,2.0,FACE,10.0,8.0,BCC,True,True,True,False,True,True,PAT_147_219_544.png,True,basal cell carcinoma
+PAT_2090,4532,,,,,60,,,,,,,,LIP,,,ACK,False,True,False,False,False,False,PAT_2090_4532_178.png,False,actinic keratosis
+PAT_753,1833,False,False,GERMANY,GERMANY,59,False,FEMALE,False,True,True,True,3.0,ARM,4.0,4.0,ACK,True,False,False,False,False,False,PAT_753_1833_710.png,False,actinic keratosis
+PAT_1650,2913,,,,,68,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1650_2913_374.png,False,actinic keratosis
+PAT_852,1629,False,False,UNK,GERMANY,56,False,MALE,True,False,True,True,3.0,EAR,7.0,5.0,BCC,False,False,False,False,True,True,PAT_852_1629_265.png,True,basal cell carcinoma
+PAT_2105,4587,,,,,55,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,False,PAT_2105_4587_204.png,False,actinic keratosis
+PAT_742,1402,False,False,POMERANIA,POMERANIA,78,False,FEMALE,False,False,True,True,2.0,HAND,15.0,10.0,ACK,False,False,False,True,False,True,PAT_742_1402_818.png,True,actinic keratosis
+PAT_605,1152,True,False,ITALY,ITALY,65,False,FEMALE,False,False,True,True,3.0,FOREARM,8.0,8.0,SCC,True,UNK,False,UNK,False,True,PAT_605_1152_536.png,True,squamous cell carcinoma
+PAT_613,1164,False,False,ITALY,ITALY,75,False,FEMALE,True,False,True,True,1.0,THIGH,1.0,1.0,BCC,False,True,False,False,False,True,PAT_613_1164_827.png,True,basal cell carcinoma
+PAT_75,113,False,False,GERMANY,GERMANY,50,True,MALE,True,False,True,True,2.0,FACE,11.0,11.0,SCC,True,UNK,False,UNK,False,True,PAT_75_113_165.png,True,squamous cell carcinoma
+PAT_817,1537,False,True,GERMANY,GERMANY,85,False,MALE,True,True,True,True,2.0,THIGH,11.0,10.0,BCC,False,True,False,True,False,True,PAT_817_1537_943.png,True,basal cell carcinoma
+PAT_269,415,False,True,POMERANIA,POMERANIA,58,True,MALE,False,False,False,False,2.0,CHEST,20.0,18.0,BCC,True,True,True,False,True,True,PAT_269_415_103.png,True,basal cell carcinoma
+PAT_788,1503,False,False,ITALY,ITALY,60,True,FEMALE,False,False,True,False,4.0,FACE,17.0,7.0,BCC,False,True,False,False,False,True,PAT_788_1503_541.png,True,basal cell carcinoma
+PAT_40,56,False,False,GERMANY,GERMANY,42,False,FEMALE,True,False,False,False,1.0,ARM,20.0,12.0,BCC,True,False,False,False,False,True,PAT_40_56_160.png,True,basal cell carcinoma
+PAT_313,669,False,False,GERMANY,GERMANY,85,True,FEMALE,True,True,True,True,2.0,FACE,10.0,9.0,BCC,True,True,True,False,False,True,PAT_313_669_908.png,True,basal cell carcinoma
+PAT_464,900,False,False,GERMANY,GERMANY,74,True,FEMALE,True,True,False,False,3.0,ARM,7.0,6.0,BCC,True,True,True,False,True,True,PAT_464_900_548.png,True,basal cell carcinoma
+PAT_658,1266,False,True,BRAZIL,BRAZIL,59,True,MALE,True,True,True,True,4.0,FACE,4.0,3.0,BCC,False,UNK,False,UNK,False,False,PAT_658_1266_149.png,True,basal cell carcinoma
+PAT_657,1247,False,False,GERMANY,GERMANY,46,False,FEMALE,False,True,True,True,2.0,CHEST,12.0,9.0,BCC,True,UNK,False,UNK,False,True,PAT_657_1247_455.png,True,basal cell carcinoma
+PAT_810,1526,True,False,BRAZIL,GERMANY,51,True,MALE,False,False,True,True,3.0,NECK,42.0,21.0,BCC,True,True,False,False,True,True,PAT_810_1526_67.png,True,basal cell carcinoma
+PAT_1034,161,,,,,55,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1034_161_203.png,False,actinic keratosis
+PAT_637,1434,True,True,BRAZIL,BRAZIL,69,False,MALE,False,True,True,True,2.0,BACK,7.0,7.0,SCC,False,False,False,False,False,True,PAT_637_1434_684.png,True,squamous cell carcinoma
+PAT_610,1156,True,True,ITALY,ITALY,74,True,MALE,True,False,True,True,1.0,CHEST,18.0,7.0,BCC,True,UNK,True,UNK,True,False,PAT_610_1156_461.png,True,basal cell carcinoma
+PAT_1708,3155,,,,,73,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1708_3155_581.png,False,actinic keratosis
+PAT_745,1406,False,True,POMERANIA,POMERANIA,74,False,MALE,True,False,True,True,2.0,FOREARM,20.0,10.0,BCC,True,UNK,True,UNK,True,True,PAT_745_1406_409.png,True,basal cell carcinoma
+PAT_104,1754,False,False,POMERANIA,POMERANIA,79,True,FEMALE,True,True,False,False,2.0,ARM,11.0,10.0,ACK,True,False,False,False,False,True,PAT_104_1754_276.png,True,actinic keratosis
+PAT_397,797,False,True,GERMANY,GERMANY,59,True,MALE,True,False,False,False,3.0,FACE,9.0,10.0,SCC,True,True,False,False,False,False,PAT_397_797_638.png,True,squamous cell carcinoma
+PAT_818,1539,False,False,POMERANIA,POMERANIA,64,True,MALE,True,False,True,True,2.0,FACE,10.0,4.0,BCC,True,UNK,False,UNK,True,True,PAT_818_1539_859.png,True,basal cell carcinoma
+PAT_1405,1395,,,,,51,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_1405_1395_96.png,False,actinic keratosis
+PAT_579,1099,False,False,GERMANY,POMERANIA,45,True,MALE,True,True,True,True,3.0,FOREARM,10.0,10.0,ACK,True,True,False,False,False,True,PAT_579_1099_837.png,True,actinic keratosis
+PAT_918,1742,False,False,PORTUGAL,POMERANIA,91,False,FEMALE,False,False,False,False,2.0,FACE,15.0,8.0,BCC,True,True,True,True,True,True,PAT_918_1742_456.png,True,basal cell carcinoma
+PAT_1246,846,,,,,51,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1246_846_899.png,False,actinic keratosis
+PAT_579,1100,False,False,GERMANY,POMERANIA,45,True,MALE,True,True,True,True,3.0,HAND,13.0,10.0,ACK,True,True,False,False,False,True,PAT_579_1100_988.png,True,actinic keratosis
+PAT_268,413,False,False,POMERANIA,POMERANIA,81,False,FEMALE,True,True,False,False,2.0,FOREARM,21.0,20.0,BCC,True,UNK,True,UNK,True,False,PAT_268_413_643.png,True,basal cell carcinoma
+PAT_207,313,True,False,PORTUGAL,PORTUGAL,79,True,MALE,False,False,True,True,3.0,CHEST,25.0,13.0,BCC,True,True,False,False,False,True,PAT_207_313_1.png,True,basal cell carcinoma
+PAT_1374,1285,,,,,54,,,,,,,,FACE,,,ACK,True,False,False,False,True,False,PAT_1374_1285_735.png,False,actinic keratosis
+PAT_1600,2685,,,,,69,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1600_2685_164.png,False,actinic keratosis
+PAT_960,1816,False,False,POMERANIA,POMERANIA,59,True,MALE,True,True,False,False,3.0,FACE,7.0,5.0,ACK,False,False,False,False,False,False,PAT_960_1816_662.png,True,actinic keratosis
+PAT_1006,53,,,,,63,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,False,PAT_1006_53_385.png,False,actinic keratosis
+PAT_380,773,False,False,NETHERLANDS,GERMANY,59,True,MALE,False,True,True,True,2.0,BACK,21.0,20.0,BCC,True,False,False,False,False,False,PAT_380_773_362.png,True,basal cell carcinoma
+PAT_834,1574,False,False,GERMANY,GERMANY,81,False,MALE,True,True,True,False,2.0,BACK,10.0,9.0,SCC,False,False,False,False,False,True,PAT_834_1574_276.png,True,squamous cell carcinoma
+PAT_163,254,False,False,GERMANY,GERMANY,51,True,FEMALE,False,True,False,False,3.0,FACE,6.0,5.0,ACK,True,False,False,False,False,False,PAT_163_254_719.png,True,actinic keratosis
+PAT_674,1277,False,False,GERMANY,GERMANY,49,False,FEMALE,True,True,True,True,3.0,FACE,10.0,10.0,BCC,False,UNK,False,UNK,False,True,PAT_674_1277_9.png,True,basal cell carcinoma
+PAT_534,1009,True,False,ITALY,ITALY,55,True,MALE,False,False,True,True,3.0,BACK,7.0,6.0,BCC,True,True,True,False,True,True,PAT_534_1009_924.png,True,basal cell carcinoma
+PAT_585,1130,True,True,POMERANIA,POMERANIA,59,False,MALE,False,False,False,False,3.0,ABDOMEN,5.0,5.0,ACK,True,True,False,False,True,True,PAT_585_1130_552.png,True,actinic keratosis
+PAT_690,1309,False,False,NETHERLANDS,UNK,58,False,FEMALE,True,True,True,True,3.0,NOSE,17.0,14.0,BCC,True,True,True,True,True,True,PAT_690_1309_154.png,True,basal cell carcinoma
+PAT_2024,4224,,,,,73,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_2024_4224_141.png,False,actinic keratosis
+PAT_2034,4266,,,,,65,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_2034_4266_880.png,False,actinic keratosis
+PAT_564,1079,True,False,BRAZIL,BRAZIL,73,False,FEMALE,False,False,True,False,2.0,ARM,18.0,8.0,BCC,True,True,False,True,True,True,PAT_564_1079_430.png,True,basal cell carcinoma
+PAT_747,1409,False,False,UNK,BRAZIL,55,False,MALE,True,False,True,True,3.0,FOREARM,15.0,10.0,ACK,True,True,False,False,True,True,PAT_747_1409_116.png,True,actinic keratosis
+PAT_719,1361,False,False,POMERANIA,POMERANIA,66,True,FEMALE,True,True,True,True,2.0,FOREARM,29.0,19.0,MEL,False,False,False,False,False,False,PAT_719_1361_234.png,True,melanoma
+PAT_1739,3261,,,,,51,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1739_3261_325.png,False,actinic keratosis
+PAT_1034,160,,,,,55,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_1034_160_819.png,False,actinic keratosis
+PAT_1536,1819,,,,,71,,,,,,,,FOREARM,,,ACK,True,False,False,False,True,True,PAT_1536_1819_91.png,False,actinic keratosis
+PAT_593,1127,False,False,UNK,UNK,72,False,MALE,False,False,True,False,2.0,BACK,22.0,11.0,BCC,True,UNK,True,UNK,True,True,PAT_593_1127_823.png,True,basal cell carcinoma
+PAT_673,1276,False,False,NETHERLANDS,FRANCE,69,True,FEMALE,True,True,True,True,2.0,FOREARM,13.0,9.0,ACK,True,False,False,False,False,False,PAT_673_1276_752.png,True,actinic keratosis
+PAT_15,3138,False,True,GERMANY,GERMANY,57,False,FEMALE,True,True,False,True,2.0,BACK,5.0,3.0,ACK,True,False,False,False,False,False,PAT_15_3138_959.png,False,actinic keratosis
+PAT_678,1298,True,True,ITALY,ITALY,59,False,MALE,True,False,True,True,2.0,FACE,8.0,6.0,SCC,True,UNK,False,UNK,False,True,PAT_678_1298_396.png,True,squamous cell carcinoma
+PAT_810,1526,True,False,BRAZIL,GERMANY,51,True,MALE,False,False,True,True,3.0,NECK,42.0,21.0,BCC,True,True,False,False,True,True,PAT_810_1526_639.png,True,basal cell carcinoma
+PAT_987,1859,False,False,POMERANIA,POMERANIA,47,True,FEMALE,True,False,False,False,3.0,FACE,13.0,9.0,ACK,True,True,True,True,False,True,PAT_987_1859_859.png,True,actinic keratosis
+PAT_638,3680,False,False,NETHERLANDS,POMERANIA,73,False,FEMALE,True,False,True,True,2.0,FOREARM,12.0,6.0,ACK,True,False,False,False,False,False,PAT_638_3680_891.png,False,actinic keratosis
+PAT_901,1716,False,True,GERMANY,GERMANY,60,True,MALE,False,False,False,False,2.0,FACE,12.0,10.0,BCC,False,True,False,True,False,True,PAT_901_1716_497.png,True,basal cell carcinoma
+PAT_735,1391,False,False,POMERANIA,POMERANIA,68,True,MALE,False,False,True,True,2.0,FOREARM,10.0,10.0,ACK,True,True,False,False,True,True,PAT_735_1391_261.png,True,actinic keratosis
+PAT_787,1482,False,False,ITALY,ITALY,77,False,FEMALE,False,False,True,True,4.0,THIGH,90.0,20.0,SCC,True,UNK,True,UNK,True,False,PAT_787_1482_328.png,True,squamous cell carcinoma
+PAT_467,904,False,False,POMERANIA,POMERANIA,46,True,FEMALE,False,False,True,False,2.0,BACK,10.0,5.0,BCC,True,True,False,False,False,True,PAT_467_904_535.png,True,basal cell carcinoma
+PAT_684,1303,False,True,POMERANIA,POMERANIA,79,False,MALE,True,False,False,False,1.0,HAND,12.0,10.0,BCC,True,True,False,True,True,True,PAT_684_1303_178.png,True,basal cell carcinoma
+PAT_1296,1038,,,,,56,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1296_1038_1.png,False,actinic keratosis
+PAT_650,1241,False,False,GERMANY,GERMANY,73,False,FEMALE,False,True,True,True,2.0,BACK,8.0,6.0,BCC,True,UNK,True,UNK,True,False,PAT_650_1241_329.png,True,basal cell carcinoma
+PAT_633,1199,True,True,POMERANIA,POMERANIA,61,True,MALE,False,False,True,False,1.0,ABDOMEN,10.0,7.0,SCC,True,True,True,True,True,True,PAT_633_1199_745.png,True,squamous cell carcinoma
+PAT_1412,1421,,,,,75,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_1412_1421_512.png,False,actinic keratosis
+PAT_877,1667,False,True,UNK,UNK,62,True,MALE,False,False,False,False,2.0,BACK,15.0,11.0,BCC,False,True,False,True,False,True,PAT_877_1667_118.png,True,basal cell carcinoma
+PAT_210,316,False,True,GERMANY,PORTUGAL,38,True,MALE,False,True,True,True,3.0,LIP,10.0,5.0,ACK,True,True,True,False,True,True,PAT_210_316_401.png,True,actinic keratosis
+PAT_645,1222,False,False,GERMANY,GERMANY,57,True,FEMALE,True,False,False,False,3.0,HAND,9.0,9.0,BCC,False,True,False,False,True,True,PAT_645_1222_860.png,True,basal cell carcinoma
+PAT_478,916,False,True,POMERANIA,POMERANIA,47,True,MALE,False,False,False,False,2.0,BACK,22.0,20.0,BCC,True,True,False,False,False,False,PAT_478_916_979.png,True,basal cell carcinoma
+PAT_873,1661,False,True,GERMANY,ITALY,69,False,MALE,False,False,True,True,2.0,ARM,7.0,4.0,ACK,False,False,False,False,False,True,PAT_873_1661_178.png,True,actinic keratosis
+PAT_1393,1355,,,,,65,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1393_1355_316.png,False,actinic keratosis
+PAT_108,161,False,False,POMERANIA,POMERANIA,68,True,MALE,True,True,True,True,2.0,FOREARM,11.0,7.0,SCC,True,True,True,True,True,True,PAT_108_161_878.png,True,squamous cell carcinoma
+PAT_545,1029,False,False,UNK,UNK,37,True,MALE,True,True,True,True,2.0,CHEST,19.0,15.0,BCC,True,UNK,False,UNK,False,True,PAT_545_1029_650.png,True,basal cell carcinoma
+PAT_380,774,False,False,NETHERLANDS,GERMANY,59,True,MALE,False,True,True,True,2.0,BACK,4.0,3.0,ACK,True,False,False,False,False,False,PAT_380_774_185.png,True,actinic keratosis
+PAT_559,1093,True,False,POMERANIA,POMERANIA,54,True,MALE,False,False,True,True,1.0,CHEST,35.0,20.0,BCC,True,True,True,False,True,True,PAT_559_1093_774.png,True,basal cell carcinoma
+PAT_387,786,False,False,BRAZIL,ITALY,57,True,MALE,False,True,False,False,2.0,BACK,23.0,20.0,SCC,True,True,False,False,True,False,PAT_387_786_213.png,True,squamous cell carcinoma
+PAT_1728,3234,,,,,79,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1728_3234_404.png,False,actinic keratosis
+PAT_1563,2426,,,,,70,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1563_2426_436.png,False,actinic keratosis
+PAT_711,1334,False,False,GERMANY,GERMANY,50,False,MALE,True,False,True,False,2.0,BACK,23.0,21.0,BCC,True,True,True,False,True,True,PAT_711_1334_480.png,True,basal cell carcinoma
+PAT_428,845,False,False,UNK,ITALY,73,False,FEMALE,False,False,False,False,3.0,FACE,10.0,9.0,ACK,True,False,False,False,True,False,PAT_428_845_189.png,True,actinic keratosis
+PAT_211,318,False,False,GERMANY,GERMANY,72,False,MALE,True,False,False,False,3.0,FACE,6.0,5.0,BCC,True,True,False,False,True,True,PAT_211_318_942.png,True,basal cell carcinoma
+PAT_316,674,False,False,GERMANY,GERMANY,79,False,FEMALE,True,False,False,True,3.0,NOSE,9.0,8.0,BCC,True,True,True,False,False,True,PAT_316_674_318.png,True,basal cell carcinoma
+PAT_88,133,False,True,GERMANY,POMERANIA,65,True,MALE,True,True,False,False,2.0,FACE,7.0,5.0,BCC,False,True,False,False,False,True,PAT_88_133_64.png,True,basal cell carcinoma
+PAT_1118,470,,,,,55,,,,,,,,FACE,,,ACK,True,True,False,False,False,False,PAT_1118_470_710.png,False,actinic keratosis
+PAT_202,917,False,False,ITALY,,78,False,FEMALE,False,True,True,True,3.0,ARM,11.0,6.0,ACK,True,False,False,False,False,False,PAT_202_917_942.png,False,actinic keratosis
+PAT_316,1457,False,False,GERMANY,GERMANY,80,False,FEMALE,True,False,False,True,3.0,FOREARM,10.0,7.0,ACK,True,False,False,False,False,True,PAT_316_1457_353.png,True,actinic keratosis
+PAT_2024,4225,,,,,73,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_2024_4225_170.png,False,actinic keratosis
+PAT_782,1492,False,False,GERMANY,GERMANY,71,False,MALE,True,True,False,True,3.0,CHEST,10.0,10.0,BCC,True,UNK,True,UNK,True,True,PAT_782_1492_890.png,True,basal cell carcinoma
+PAT_1373,1283,,,,,39,,,,,,,,FOREARM,,,ACK,True,True,False,False,True,False,PAT_1373_1283_85.png,False,actinic keratosis
+PAT_1414,1433,,,,,75,,,,,,,,HAND,,,ACK,True,False,False,False,False,True,PAT_1414_1433_806.png,False,actinic keratosis
+PAT_1031,148,,,,,35,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1031_148_292.png,False,actinic keratosis
+PAT_261,401,False,False,POMERANIA,POMERANIA,43,False,MALE,False,False,False,False,1.0,FACE,10.0,4.0,BCC,True,UNK,True,UNK,True,True,PAT_261_401_911.png,True,basal cell carcinoma
+PAT_110,165,False,False,ITALY,ITALY,62,False,FEMALE,False,True,False,True,3.0,NOSE,6.0,4.0,BCC,False,True,False,False,False,True,PAT_110_165_583.png,True,basal cell carcinoma
+PAT_880,1675,False,False,GERMANY,GERMANY,83,False,FEMALE,True,False,True,False,2.0,SCALP,35.0,40.0,ACK,True,False,True,False,False,False,PAT_880_1675_704.png,True,actinic keratosis
+PAT_1093,379,,,,,53,,,,,,,,SCALP,,,ACK,True,False,False,False,False,False,PAT_1093_379_273.png,False,actinic keratosis
+PAT_645,1223,False,False,GERMANY,GERMANY,57,True,FEMALE,True,False,False,False,3.0,CHEST,10.0,5.0,BCC,False,True,False,True,True,True,PAT_645_1223_443.png,True,basal cell carcinoma
+PAT_86,1082,False,False,POMERANIA,POMERANIA,53,False,FEMALE,True,False,True,True,2.0,FOREARM,20.0,15.0,ACK,True,True,True,False,True,True,PAT_86_1082_220.png,True,actinic keratosis
+PAT_477,915,False,True,POMERANIA,POMERANIA,43,True,FEMALE,False,True,False,False,2.0,NOSE,7.0,7.0,BCC,False,UNK,False,UNK,False,True,PAT_477_915_389.png,True,basal cell carcinoma
+PAT_904,1736,False,False,GERMANY,GERMANY,70,True,MALE,False,False,True,True,2.0,NOSE,10.0,10.0,BCC,True,UNK,False,UNK,False,True,PAT_904_1736_851.png,True,basal cell carcinoma
+PAT_32,44,False,True,POLAND,POLAND,64,False,FEMALE,True,True,True,True,2.0,FACE,7.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_32_44_211.png,True,basal cell carcinoma
+PAT_303,652,True,True,ITALY,ITALY,64,True,MALE,False,False,True,True,2.0,FOREARM,26.0,18.0,BCC,True,False,True,False,True,True,PAT_303_652_342.png,True,basal cell carcinoma
+PAT_363,746,False,True,POMERANIA,POMERANIA,63,True,MALE,False,True,False,False,3.0,FACE,6.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_363_746_18.png,True,basal cell carcinoma
+PAT_645,4042,False,False,GERMANY,GERMANY,57,True,FEMALE,True,False,False,False,3.0,FOREARM,6.0,5.0,ACK,True,True,False,False,False,True,PAT_645_4042_489.png,False,actinic keratosis
+PAT_747,1410,False,False,UNK,BRAZIL,55,False,MALE,True,False,True,True,3.0,FOREARM,10.0,7.0,ACK,True,True,False,False,True,True,PAT_747_1410_622.png,True,actinic keratosis
+PAT_983,1853,False,False,POMERANIA,POMERANIA,78,False,FEMALE,False,False,True,True,2.0,ARM,10.0,9.0,ACK,True,False,True,False,False,True,PAT_983_1853_985.png,True,actinic keratosis
+PAT_110,397,False,False,ITALY,ITALY,63,False,FEMALE,False,True,False,True,3.0,HAND,6.0,4.0,ACK,True,False,False,False,False,False,PAT_110_397_52.png,False,actinic keratosis
+PAT_191,294,True,False,POMERANIA,POMERANIA,85,False,FEMALE,False,True,True,True,2.0,NOSE,13.0,3.0,BCC,True,True,True,False,True,True,PAT_191_294_419.png,True,basal cell carcinoma
+PAT_1918,3836,,,,,63,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1918_3836_82.png,False,actinic keratosis
+PAT_1176,631,,,,,69,,,,,,,,FOREARM,,,ACK,True,True,False,False,False,False,PAT_1176_631_36.png,False,actinic keratosis
+PAT_523,988,True,False,GERMANY,GERMANY,52,False,FEMALE,False,True,True,True,2.0,FACE,6.0,5.0,BCC,True,True,False,False,True,True,PAT_523_988_900.png,True,basal cell carcinoma
+PAT_1545,1865,,,,,77,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1545_1865_519.png,False,actinic keratosis
+PAT_637,1217,True,True,BRAZIL,BRAZIL,69,False,MALE,False,True,True,True,2.0,THIGH,12.0,7.0,SCC,False,False,False,False,False,True,PAT_637_1217_274.png,True,squamous cell carcinoma
+PAT_1937,3897,,,,,62,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,False,PAT_1937_3897_131.png,False,actinic keratosis
+PAT_936,1772,False,False,POMERANIA,POMERANIA,63,False,MALE,False,False,False,False,2.0,BACK,31.0,30.0,MEL,False,UNK,False,UNK,False,False,PAT_936_1772_886.png,True,melanoma
+PAT_270,417,False,False,POMERANIA,POMERANIA,90,False,FEMALE,False,True,False,False,1.0,HAND,13.0,7.0,MEL,False,True,False,True,False,False,PAT_270_417_257.png,True,melanoma
+PAT_1433,1499,,,,,51,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1433_1499_29.png,False,actinic keratosis
+PAT_782,1494,False,False,GERMANY,GERMANY,71,False,MALE,True,True,False,True,3.0,FOREARM,12.0,10.0,BCC,True,UNK,False,UNK,False,False,PAT_782_1494_418.png,True,basal cell carcinoma
+PAT_236,1071,False,True,POMERANIA,POMERANIA,55,True,MALE,True,True,False,False,3.0,FOREARM,6.0,5.0,ACK,True,False,False,False,False,True,PAT_236_1071_810.png,False,actinic keratosis
+PAT_940,1775,False,False,GERMANY,GERMANY,69,True,MALE,False,False,True,True,2.0,EAR,10.0,7.0,BCC,True,True,False,False,True,False,PAT_940_1775_513.png,True,basal cell carcinoma
+PAT_1431,1495,,,,,58,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1431_1495_931.png,False,actinic keratosis
+PAT_160,248,False,True,ITALY,ITALY,78,False,MALE,False,True,False,False,2.0,CHEST,11.0,10.0,BCC,True,True,True,False,True,False,PAT_160_248_254.png,True,basal cell carcinoma
+PAT_211,317,False,False,GERMANY,GERMANY,72,False,MALE,True,False,False,False,3.0,NOSE,5.0,4.0,BCC,True,True,True,False,True,True,PAT_211_317_649.png,True,basal cell carcinoma
+PAT_906,1723,False,False,GERMANY,GERMANY,65,True,MALE,False,False,True,True,2.0,NECK,30.0,27.0,BCC,True,UNK,False,UNK,True,True,PAT_906_1723_560.png,True,basal cell carcinoma
+PAT_119,181,False,False,POMERANIA,POMERANIA,77,False,FEMALE,False,False,False,False,2.0,FACE,5.0,5.0,BCC,True,True,True,False,True,True,PAT_119_181_684.png,True,basal cell carcinoma
+PAT_46,880,False,False,POMERANIA,POMERANIA,55,False,FEMALE,True,True,True,True,3.0,CHEST,13.0,12.0,BCC,True,True,False,True,False,False,PAT_46_880_308.png,True,basal cell carcinoma
+PAT_632,3700,False,False,,,73,False,FEMALE,False,False,True,True,2.0,FOREARM,18.0,14.0,ACK,False,False,False,False,False,True,PAT_632_3700_890.png,False,actinic keratosis
+PAT_530,999,False,True,POMERANIA,POMERANIA,46,False,FEMALE,False,False,True,True,3.0,NECK,12.0,6.0,BCC,False,UNK,False,UNK,False,True,PAT_530_999_696.png,True,basal cell carcinoma
+PAT_834,1574,False,False,GERMANY,GERMANY,81,False,MALE,True,True,True,False,2.0,BACK,10.0,9.0,SCC,False,False,False,False,False,True,PAT_834_1574_397.png,True,squamous cell carcinoma
+PAT_864,1646,False,False,POMERANIA,POMERANIA,55,False,FEMALE,False,False,True,True,3.0,BACK,5.0,4.0,BCC,False,False,False,False,False,True,PAT_864_1646_822.png,True,basal cell carcinoma
+PAT_151,227,False,True,GERMANY,GERMANY,62,False,FEMALE,True,True,True,True,2.0,NOSE,7.0,5.0,BCC,True,True,True,False,True,False,PAT_151_227_63.png,True,basal cell carcinoma
+PAT_1385,1323,,,,,69,,,,,,,,FACE,,,ACK,True,False,False,False,False,True,PAT_1385_1323_100.png,False,actinic keratosis
+PAT_550,1045,False,True,GERMANY,GERMANY,81,False,MALE,False,False,True,True,2.0,FOREARM,12.0,10.0,BCC,False,UNK,False,UNK,False,True,PAT_550_1045_81.png,True,basal cell carcinoma
+PAT_2089,4529,,,,,68,,,,,,,,FACE,,,ACK,False,True,False,False,False,False,PAT_2089_4529_762.png,False,actinic keratosis
+PAT_122,869,False,False,POMERANIA,POMERANIA,79,False,FEMALE,False,False,False,False,1.0,CHEST,10.0,8.0,BCC,True,UNK,False,UNK,False,True,PAT_122_869_60.png,True,basal cell carcinoma
+PAT_1497,1712,,,,,76,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,False,PAT_1497_1712_633.png,False,actinic keratosis
+PAT_851,1623,False,False,POMERANIA,POMERANIA,77,False,FEMALE,True,True,True,True,3.0,NECK,25.0,10.0,ACK,True,False,False,False,True,False,PAT_851_1623_815.png,True,actinic keratosis
+PAT_2026,4230,,,,,77,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_2026_4230_141.png,False,actinic keratosis
+PAT_355,732,False,False,POMERANIA,POMERANIA,80,False,MALE,False,False,True,True,2.0,NECK,5.0,5.0,BCC,True,True,False,False,False,True,PAT_355_732_625.png,True,basal cell carcinoma
+PAT_86,131,False,False,POMERANIA,POMERANIA,52,False,FEMALE,True,False,True,True,2.0,HAND,15.0,12.0,ACK,True,False,True,False,False,True,PAT_86_131_107.png,True,actinic keratosis
+PAT_472,910,False,False,NETHERLANDS,POMERANIA,45,True,MALE,False,True,True,False,2.0,NECK,10.0,5.0,BCC,False,UNK,False,UNK,False,False,PAT_472_910_453.png,True,basal cell carcinoma
+PAT_678,1287,True,True,ITALY,ITALY,59,False,MALE,True,False,True,True,2.0,BACK,7.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_678_1287_652.png,True,basal cell carcinoma
+PAT_532,1007,False,False,GERMANY,GERMANY,85,False,FEMALE,False,True,True,True,2.0,NOSE,4.0,3.0,BCC,True,False,True,False,True,True,PAT_532_1007_854.png,True,basal cell carcinoma
+PAT_2022,4184,,,,,55,,,,,,,,HAND,,,ACK,False,True,False,True,False,True,PAT_2022_4184_111.png,False,actinic keratosis
+PAT_598,1137,False,False,POMERANIA,POMERANIA,88,False,FEMALE,False,True,True,True,2.0,FACE,10.0,10.0,BCC,True,True,False,True,False,True,PAT_598_1137_888.png,True,basal cell carcinoma
+PAT_230,1007,False,False,POMERANIA,POMERANIA,73,False,FEMALE,False,False,False,False,2.0,FOREARM,9.0,6.0,ACK,True,True,False,False,True,False,PAT_230_1007_645.png,False,actinic keratosis
+PAT_1029,135,,,,,47,,,,,,,,NOSE,,,ACK,True,False,False,False,False,False,PAT_1029_135_983.png,False,actinic keratosis
+PAT_143,213,True,True,POMERANIA,POMERANIA,71,True,MALE,True,True,False,False,2.0,CHEST,8.0,7.0,BCC,True,True,False,False,False,True,PAT_143_213_489.png,True,basal cell carcinoma
+PAT_914,1732,False,False,GERMANY,GERMANY,74,False,FEMALE,False,False,True,True,2.0,FACE,10.0,8.0,ACK,True,False,False,False,False,False,PAT_914_1732_136.png,True,actinic keratosis
+PAT_1418,1449,,,,,86,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1418_1449_580.png,False,actinic keratosis
+PAT_442,863,False,False,GERMANY,GERMANY,56,False,FEMALE,False,True,False,False,2.0,FACE,70.0,60.0,BCC,True,True,False,False,False,True,PAT_442_863_795.png,True,basal cell carcinoma
+PAT_1031,148,,,,,35,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1031_148_66.png,False,actinic keratosis
+PAT_1280,972,,,,,60,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1280_972_605.png,False,actinic keratosis
+PAT_738,1397,False,False,POMERANIA,POMERANIA,58,True,FEMALE,True,True,False,True,2.0,FACE,3.0,3.0,BCC,False,False,False,False,True,True,PAT_738_1397_195.png,True,basal cell carcinoma
+PAT_747,1408,False,False,UNK,BRAZIL,55,False,MALE,True,False,True,True,3.0,CHEST,13.0,12.0,BCC,True,True,False,False,False,True,PAT_747_1408_965.png,True,basal cell carcinoma
+PAT_2128,4676,,,,,53,,,,,,,,THIGH,,,ACK,False,False,False,False,False,True,PAT_2128_4676_965.png,False,actinic keratosis
+PAT_727,1373,False,False,GERMANY,GERMANY,87,False,MALE,False,False,True,True,2.0,FACE,15.0,10.0,BCC,True,True,True,False,True,True,PAT_727_1373_718.png,True,basal cell carcinoma
+PAT_135,202,False,False,POMERANIA,POMERANIA,53,True,FEMALE,False,True,False,False,2.0,BACK,10.0,9.0,BCC,True,True,True,False,True,True,PAT_135_202_105.png,True,basal cell carcinoma
+PAT_2068,4424,,,,,73,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_2068_4424_995.png,False,actinic keratosis
+PAT_824,1560,False,False,GERMANY,GERMANY,83,True,MALE,True,False,True,False,2.0,BACK,9.0,9.0,SCC,True,UNK,False,UNK,True,True,PAT_824_1560_801.png,True,squamous cell carcinoma
+PAT_378,769,True,True,BRAZIL,BRAZIL,71,False,MALE,False,True,False,False,2.0,NOSE,9.0,9.0,BCC,True,False,True,False,True,True,PAT_378_769_36.png,True,basal cell carcinoma
+PAT_482,924,False,False,POMERANIA,POMERANIA,63,False,FEMALE,True,True,False,False,2.0,BACK,16.0,11.0,SCC,False,UNK,False,UNK,False,False,PAT_482_924_134.png,True,squamous cell carcinoma
+PAT_202,307,False,False,ITALY,UNK,77,False,FEMALE,False,True,True,True,3.0,NOSE,4.0,3.0,BCC,True,True,False,False,True,True,PAT_202_307_927.png,True,basal cell carcinoma
+PAT_53,81,False,False,BRAZIL,BRAZIL,78,False,MALE,False,True,True,False,1.0,FACE,11.0,10.0,BCC,True,False,False,False,False,False,PAT_53_81_194.png,True,basal cell carcinoma
+PAT_1313,1105,,,,,33,,,,,,,,HAND,,,ACK,True,True,False,False,False,True,PAT_1313_1105_284.png,False,actinic keratosis
+PAT_609,1159,True,True,POMERANIA,POMERANIA,61,True,MALE,False,False,False,False,2.0,NECK,14.0,8.0,BCC,False,True,False,False,True,True,PAT_609_1159_942.png,True,basal cell carcinoma
+PAT_1393,1354,,,,,65,,,,,,,,NECK,,,ACK,True,False,True,False,False,False,PAT_1393_1354_535.png,False,actinic keratosis
+PAT_656,1246,False,False,UNK,UNK,58,False,MALE,False,False,True,True,2.0,BACK,18.0,12.0,MEL,True,True,False,True,False,False,PAT_656_1246_483.png,True,melanoma
+PAT_264,1368,False,False,POMERANIA,POMERANIA,84,False,FEMALE,False,False,False,False,2.0,NOSE,13.0,10.0,BCC,False,False,False,False,True,True,PAT_264_1368_868.png,True,basal cell carcinoma
+PAT_567,1076,False,False,GERMANY,GERMANY,44,False,MALE,False,True,True,True,1.0,CHEST,13.0,8.0,BCC,True,UNK,True,UNK,True,True,PAT_567_1076_545.png,True,basal cell carcinoma
+PAT_668,1259,False,False,GERMANY,GERMANY,70,False,FEMALE,False,True,True,True,2.0,FACE,5.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_668_1259_681.png,True,basal cell carcinoma
+PAT_186,286,False,False,UNK,GERMANY,74,True,MALE,True,True,False,False,2.0,FOREARM,7.0,5.0,ACK,False,False,False,False,False,True,PAT_186_286_109.png,True,actinic keratosis
+PAT_48,74,False,False,BRAZIL,BRAZIL,73,False,FEMALE,False,True,True,True,3.0,ARM,10.0,7.0,SCC,False,True,False,False,False,True,PAT_48_74_309.png,True,squamous cell carcinoma
+PAT_290,445,False,True,POMERANIA,POMERANIA,54,True,MALE,True,True,False,False,2.0,ARM,15.0,12.0,BCC,True,True,True,False,True,True,PAT_290_445_988.png,True,basal cell carcinoma
+PAT_751,1497,False,False,GERMANY,GERMANY,62,True,MALE,False,False,True,True,2.0,CHEST,0.0,0.0,SCC,True,UNK,False,UNK,True,True,PAT_751_1497_215.png,True,squamous cell carcinoma
+PAT_682,1292,False,False,POMERANIA,POMERANIA,75,False,FEMALE,True,False,True,True,2.0,BACK,10.0,10.0,BCC,True,True,False,False,True,True,PAT_682_1292_978.png,True,basal cell carcinoma
+PAT_2124,4650,,,,,64,,,,,,,,FACE,,,ACK,True,True,False,True,False,False,PAT_2124_4650_575.png,False,actinic keratosis
+PAT_516,966,False,False,BRAZIL,BRAZIL,85,False,FEMALE,False,True,True,True,1.0,NOSE,5.0,4.0,BCC,False,True,False,False,False,True,PAT_516_966_57.png,True,basal cell carcinoma
+PAT_1543,4346,,,,,74,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_1543_4346_860.png,False,actinic keratosis
+PAT_519,979,False,False,GERMANY,GERMANY,49,False,MALE,True,False,True,False,3.0,LIP,14.0,8.0,BCC,True,UNK,False,UNK,False,True,PAT_519_979_104.png,True,basal cell carcinoma
+PAT_680,1289,True,False,PORTUGAL,ITALY,78,False,MALE,True,True,True,True,2.0,BACK,10.0,10.0,MEL,False,True,False,True,False,True,PAT_680_1289_585.png,True,melanoma
+PAT_270,1384,False,False,POMERANIA,POMERANIA,90,False,FEMALE,False,True,False,False,1.0,FOREARM,13.0,7.0,ACK,True,False,True,False,True,True,PAT_270_1384_995.png,False,actinic keratosis
+PAT_307,1458,False,False,ITALY,ITALY,78,False,FEMALE,False,False,False,False,2.0,FOREARM,4.0,4.0,ACK,True,False,False,False,False,True,PAT_307_1458_363.png,True,actinic keratosis
+PAT_1063,268,,,,,65,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1063_268_704.png,False,actinic keratosis
+PAT_1127,496,,,,,40,,,,,,,,HAND,,,ACK,False,False,False,False,False,False,PAT_1127_496_945.png,False,actinic keratosis
+PAT_948,1800,True,False,POMERANIA,POMERANIA,58,True,FEMALE,False,False,False,False,3.0,FACE,4.0,3.0,BCC,True,UNK,False,UNK,True,True,PAT_948_1800_310.png,True,basal cell carcinoma
+PAT_437,857,True,False,GERMANY,GERMANY,63,False,MALE,True,True,False,False,2.0,FACE,10.0,10.0,ACK,False,False,False,False,False,False,PAT_437_857_425.png,True,actinic keratosis
+PAT_1427,1485,,,,,47,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1427_1485_15.png,False,actinic keratosis
+PAT_778,1471,False,True,GERMANY,ITALY,52,False,FEMALE,False,True,True,True,3.0,FACE,15.0,10.0,BCC,False,True,False,True,True,True,PAT_778_1471_911.png,True,basal cell carcinoma
+PAT_361,1567,False,False,POMERANIA,POMERANIA,71,True,MALE,True,False,False,False,3.0,FACE,10.0,7.0,BCC,False,True,False,True,False,True,PAT_361_1567_487.png,True,basal cell carcinoma
+PAT_737,1394,False,False,GERMANY,GERMANY,51,True,FEMALE,False,True,True,True,2.0,NOSE,5.0,5.0,BCC,False,True,True,False,True,True,PAT_737_1394_936.png,True,basal cell carcinoma
+PAT_612,1163,False,False,ITALY,ITALY,90,False,FEMALE,False,True,True,True,1.0,ARM,19.0,15.0,SCC,UNK,UNK,UNK,UNK,False,True,PAT_612_1163_833.png,True,squamous cell carcinoma
+PAT_63,98,False,False,BRAZIL,NORWAY,35,False,FEMALE,False,True,True,True,2.0,FACE,11.0,7.0,BCC,False,False,False,False,False,True,PAT_63_98_127.png,True,basal cell carcinoma
+PAT_877,1667,False,True,UNK,UNK,62,True,MALE,False,False,False,False,2.0,BACK,15.0,11.0,BCC,False,True,False,True,False,True,PAT_877_1667_667.png,True,basal cell carcinoma
+PAT_945,1796,False,False,UNK,UNK,83,False,FEMALE,True,True,True,True,3.0,FOREARM,15.0,15.0,SCC,True,UNK,False,UNK,False,True,PAT_945_1796_583.png,True,squamous cell carcinoma
+PAT_242,369,True,True,GERMANY,GERMANY,45,False,FEMALE,True,True,True,True,2.0,CHEST,12.0,12.0,BCC,True,True,False,False,False,True,PAT_242_369_337.png,True,basal cell carcinoma
+PAT_152,230,False,False,GERMANY,GERMANY,68,False,MALE,False,True,True,True,2.0,BACK,15.0,10.0,BCC,True,False,True,False,True,False,PAT_152_230_707.png,True,basal cell carcinoma
+PAT_108,161,False,False,POMERANIA,POMERANIA,68,True,MALE,True,True,True,True,2.0,FOREARM,11.0,7.0,SCC,True,True,True,True,True,True,PAT_108_161_575.png,True,squamous cell carcinoma
+PAT_1071,314,,,,,55,,,,,,,,FACE,,,ACK,False,False,False,False,False,False,PAT_1071_314_500.png,False,actinic keratosis
+PAT_573,1090,False,False,POMERANIA,POMERANIA,51,True,FEMALE,True,False,False,False,4.0,FACE,9.0,7.0,BCC,True,True,True,False,False,True,PAT_573_1090_660.png,True,basal cell carcinoma
+PAT_753,1427,False,False,GERMANY,GERMANY,61,False,FEMALE,False,True,True,True,3.0,FACE,5.0,5.0,ACK,False,True,False,True,False,True,PAT_753_1427_496.png,True,actinic keratosis
+PAT_321,682,False,False,GERMANY,GERMANY,85,False,FEMALE,False,True,False,False,2.0,FACE,7.0,7.0,SCC,True,False,True,False,False,True,PAT_321_682_236.png,True,squamous cell carcinoma
+PAT_1259,892,,,,,72,,,,,,,,NOSE,,,ACK,True,False,False,False,False,False,PAT_1259_892_793.png,False,actinic keratosis
+PAT_934,1777,False,False,POMERANIA,POMERANIA,68,True,MALE,False,False,True,True,2.0,FACE,13.0,6.0,ACK,False,False,False,False,False,False,PAT_934_1777_423.png,True,actinic keratosis
+PAT_1631,2837,,,,,63,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1631_2837_667.png,False,actinic keratosis
+PAT_1267,912,,,,,54,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1267_912_371.png,False,actinic keratosis
+PAT_1064,273,,,,,44,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1064_273_980.png,False,actinic keratosis
+PAT_313,669,False,False,GERMANY,GERMANY,85,True,FEMALE,True,True,True,True,2.0,FACE,10.0,9.0,BCC,True,True,True,False,False,True,PAT_313_669_935.png,True,basal cell carcinoma
+PAT_1158,570,,,,,44,,,,,,,,CHEST,,,ACK,True,True,False,False,False,False,PAT_1158_570_376.png,False,actinic keratosis
+PAT_544,1028,False,False,UNK,UNK,87,False,FEMALE,False,False,False,False,2.0,FACE,5.0,4.0,BCC,True,True,False,False,False,True,PAT_544_1028_226.png,True,basal cell carcinoma
+PAT_53,82,False,False,BRAZIL,BRAZIL,78,False,MALE,False,True,True,False,1.0,BACK,10.0,7.0,BCC,True,True,False,False,False,True,PAT_53_82_657.png,True,basal cell carcinoma
+PAT_185,285,False,True,GERMANY,GERMANY,62,False,MALE,False,True,True,False,2.0,ARM,11.0,9.0,BCC,True,True,True,False,True,True,PAT_185_285_97.png,True,basal cell carcinoma
+PAT_112,171,True,False,POMERANIA,POMERANIA,69,False,MALE,True,False,False,False,1.0,FACE,5.0,5.0,BCC,False,True,False,False,False,True,PAT_112_171_863.png,True,basal cell carcinoma
+PAT_229,349,False,True,POMERANIA,POMERANIA,74,False,MALE,True,True,False,False,3.0,NOSE,10.0,8.0,BCC,True,False,False,False,True,True,PAT_229_349_256.png,True,basal cell carcinoma
+PAT_830,1564,True,True,ITALY,GERMANY,84,False,MALE,True,False,False,False,2.0,NOSE,7.0,7.0,BCC,True,UNK,False,UNK,False,True,PAT_830_1564_54.png,True,basal cell carcinoma
+PAT_1374,1286,,,,,54,,,,,,,,CHEST,,,ACK,True,False,False,False,True,True,PAT_1374_1286_494.png,False,actinic keratosis
+PAT_707,1327,False,False,UNK,UNK,55,True,FEMALE,False,True,True,True,5.0,NOSE,1.0,1.0,ACK,False,False,False,False,False,True,PAT_707_1327_245.png,True,actinic keratosis
+PAT_271,418,False,False,GERMANY,GERMANY,79,False,FEMALE,False,True,True,True,2.0,CHEST,12.0,10.0,SCC,True,False,True,False,False,True,PAT_271_418_92.png,True,squamous cell carcinoma
+PAT_1749,3288,,,,,66,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_1749_3288_409.png,False,actinic keratosis
+PAT_459,892,False,True,GERMANY,GERMANY,84,False,MALE,False,False,True,True,2.0,FACE,12.0,9.0,BCC,True,True,True,False,True,True,PAT_459_892_804.png,True,basal cell carcinoma
+PAT_1918,3837,,,,,63,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_1918_3837_15.png,False,actinic keratosis
+PAT_918,1742,False,False,PORTUGAL,POMERANIA,91,False,FEMALE,False,False,False,False,2.0,FACE,15.0,8.0,BCC,True,True,True,True,True,True,PAT_918_1742_629.png,True,basal cell carcinoma
+PAT_1866,3659,,,,,77,,,,,,,,FOREARM,,,ACK,True,False,True,False,True,False,PAT_1866_3659_398.png,False,actinic keratosis
+PAT_851,1623,False,False,POMERANIA,POMERANIA,77,False,FEMALE,True,True,True,True,3.0,NECK,25.0,10.0,ACK,True,False,False,False,True,False,PAT_851_1623_506.png,True,actinic keratosis
+PAT_766,1670,False,False,ITALY,ITALY,62,True,MALE,False,False,False,False,3.0,ARM,6.0,6.0,ACK,True,False,False,False,False,False,PAT_766_1670_458.png,False,actinic keratosis
+PAT_479,917,False,False,POMERANIA,POMERANIA,48,True,MALE,True,False,False,False,2.0,FACE,15.0,14.0,BCC,True,True,False,False,True,True,PAT_479_917_41.png,True,basal cell carcinoma
+PAT_904,1739,False,False,GERMANY,GERMANY,70,True,MALE,False,False,True,True,2.0,FOREARM,10.0,8.0,ACK,True,False,False,False,False,False,PAT_904_1739_546.png,True,actinic keratosis
+PAT_206,312,False,True,GERMANY,GERMANY,47,True,MALE,False,True,True,True,2.0,CHEST,13.0,11.0,BCC,True,False,True,False,True,False,PAT_206_312_595.png,True,basal cell carcinoma
+PAT_290,445,False,True,POMERANIA,POMERANIA,54,True,MALE,True,True,False,False,2.0,ARM,15.0,12.0,BCC,True,True,True,False,True,True,PAT_290_445_686.png,True,basal cell carcinoma
+PAT_523,988,True,False,GERMANY,GERMANY,52,False,FEMALE,False,True,True,True,2.0,FACE,6.0,5.0,BCC,True,True,False,False,True,True,PAT_523_988_851.png,True,basal cell carcinoma
+PAT_70,107,False,True,ITALY,ITALY,67,True,MALE,False,False,False,False,2.0,THIGH,9.0,7.0,MEL,False,True,False,True,False,False,PAT_70_107_591.png,True,melanoma
+PAT_135,202,False,False,POMERANIA,POMERANIA,53,True,FEMALE,False,True,False,False,2.0,BACK,10.0,9.0,BCC,True,True,True,False,True,True,PAT_135_202_695.png,True,basal cell carcinoma
+PAT_147,219,False,False,POMERANIA,POMERANIA,39,False,MALE,False,False,False,False,2.0,FACE,10.0,8.0,BCC,True,True,True,False,True,True,PAT_147_219_206.png,True,basal cell carcinoma
+PAT_877,4672,False,True,,,62,True,MALE,False,False,False,False,2.0,FOREARM,15.0,11.0,ACK,True,True,False,True,True,True,PAT_877_4672_612.png,False,actinic keratosis
+PAT_1026,124,,,,,52,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1026_124_346.png,False,actinic keratosis
+PAT_271,418,False,False,GERMANY,GERMANY,79,False,FEMALE,False,True,True,True,2.0,CHEST,12.0,10.0,SCC,True,False,True,False,False,True,PAT_271_418_14.png,True,squamous cell carcinoma
+PAT_208,314,False,False,GERMANY,GERMANY,66,False,FEMALE,False,True,False,False,2.0,FACE,7.0,7.0,BCC,True,True,False,False,True,True,PAT_208_314_741.png,True,basal cell carcinoma
+PAT_85,129,False,False,UNK,UNK,71,False,FEMALE,False,True,False,False,3.0,CHEST,4.0,3.0,ACK,False,True,False,False,False,True,PAT_85_129_980.png,True,actinic keratosis
+PAT_363,745,False,True,POMERANIA,POMERANIA,63,True,MALE,False,True,False,False,3.0,FACE,6.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_363_745_516.png,True,basal cell carcinoma
+PAT_178,276,False,False,ITALY,ITALY,44,False,MALE,True,False,True,True,3.0,CHEST,10.0,7.0,BCC,True,UNK,False,UNK,False,True,PAT_178_276_465.png,True,basal cell carcinoma
+PAT_742,1470,False,False,POMERANIA,POMERANIA,79,False,FEMALE,False,False,True,True,2.0,HAND,15.0,10.0,ACK,True,True,False,False,False,True,PAT_742_1470_425.png,False,actinic keratosis
+PAT_513,964,True,False,BRAZIL,BRAZIL,67,True,MALE,False,True,True,True,1.0,BACK,12.0,9.0,BCC,True,False,True,False,True,True,PAT_513_964_447.png,True,basal cell carcinoma
+PAT_1707,3146,,,,,75,,,,,,,,FACE,,,ACK,True,False,False,False,True,False,PAT_1707_3146_743.png,False,actinic keratosis
+PAT_46,881,False,False,POMERANIA,POMERANIA,55,False,FEMALE,True,True,True,True,3.0,NECK,6.0,5.0,BCC,True,True,False,True,True,True,PAT_46_881_14.png,True,basal cell carcinoma
+PAT_994,1866,False,False,POMERANIA,POMERANIA,52,True,FEMALE,True,True,True,False,3.0,THIGH,11.0,8.0,BCC,True,True,False,False,True,False,PAT_994_1866_730.png,True,basal cell carcinoma
+PAT_132,198,False,False,POMERANIA,POMERANIA,58,True,FEMALE,False,True,False,False,2.0,NOSE,11.0,7.0,BCC,True,True,True,False,True,True,PAT_132_198_114.png,True,basal cell carcinoma
+PAT_737,1394,False,False,GERMANY,GERMANY,51,True,FEMALE,False,True,True,True,2.0,NOSE,5.0,5.0,BCC,False,True,True,False,True,True,PAT_737_1394_308.png,True,basal cell carcinoma
+PAT_141,209,False,True,GERMANY,GERMANY,71,False,FEMALE,False,False,True,True,2.0,FACE,7.0,5.0,BCC,True,True,False,False,False,True,PAT_141_209_438.png,True,basal cell carcinoma
+PAT_547,1033,False,False,GERMANY,GERMANY,56,True,FEMALE,True,False,True,True,3.0,NOSE,5.0,3.0,BCC,True,True,False,False,False,True,PAT_547_1033_445.png,True,basal cell carcinoma
+PAT_1063,270,,,,,65,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1063_270_593.png,False,actinic keratosis
+PAT_978,1844,True,False,POMERANIA,POMERANIA,72,True,MALE,False,True,True,True,2.0,HAND,16.0,15.0,SCC,True,UNK,True,UNK,True,True,PAT_978_1844_599.png,True,squamous cell carcinoma
+PAT_191,293,True,False,POMERANIA,POMERANIA,85,False,FEMALE,False,True,True,True,2.0,ARM,15.0,10.0,BCC,True,True,True,False,True,True,PAT_191_293_391.png,True,basal cell carcinoma
+PAT_1427,1485,,,,,47,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1427_1485_119.png,False,actinic keratosis
+PAT_272,420,False,False,POMERANIA,POMERANIA,83,False,FEMALE,False,False,False,False,2.0,BACK,32.0,28.0,BCC,False,False,False,False,False,True,PAT_272_420_25.png,True,basal cell carcinoma
+PAT_1673,3011,,,,,31,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_1673_3011_440.png,False,actinic keratosis
+PAT_114,173,False,True,POMERANIA,POMERANIA,82,True,MALE,True,False,False,False,1.0,FACE,22.0,10.0,BCC,True,UNK,True,UNK,True,True,PAT_114_173_213.png,True,basal cell carcinoma
+PAT_441,861,False,False,GERMANY,GERMANY,55,False,FEMALE,True,True,False,False,2.0,BACK,6.0,5.0,BCC,False,True,False,False,False,True,PAT_441_861_542.png,True,basal cell carcinoma
+PAT_120,183,False,False,POMERANIA,POMERANIA,53,False,FEMALE,True,False,False,False,2.0,NECK,10.0,8.0,BCC,True,True,True,False,True,True,PAT_120_183_623.png,True,basal cell carcinoma
+PAT_711,1334,False,False,GERMANY,GERMANY,50,False,MALE,True,False,True,False,2.0,BACK,23.0,21.0,BCC,True,True,True,False,True,True,PAT_711_1334_344.png,True,basal cell carcinoma
+PAT_989,1861,False,True,POMERANIA,POMERANIA,41,True,MALE,True,True,False,False,2.0,LIP,18.0,12.0,SCC,True,UNK,True,UNK,True,True,PAT_989_1861_156.png,True,squamous cell carcinoma
+PAT_618,1174,False,True,ITALY,ITALY,70,False,MALE,True,True,True,True,1.0,EAR,5.0,3.0,BCC,False,True,False,False,True,True,PAT_618_1174_596.png,True,basal cell carcinoma
+PAT_1586,2623,,,,,68,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1586_2623_989.png,False,actinic keratosis
+PAT_1498,1719,,,,,68,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1498_1719_816.png,False,actinic keratosis
+PAT_1881,3713,,,,,44,,,,,,,,CHEST,,,ACK,False,False,False,False,False,False,PAT_1881_3713_718.png,False,actinic keratosis
+PAT_796,1510,True,False,ITALY,ITALY,83,False,MALE,False,False,True,True,2.0,FOREARM,30.0,20.0,BCC,True,UNK,True,UNK,True,True,PAT_796_1510_361.png,True,basal cell carcinoma
+PAT_230,350,False,False,POMERANIA,POMERANIA,73,False,FEMALE,False,False,False,False,2.0,FOREARM,12.0,10.0,ACK,False,False,False,False,False,False,PAT_230_350_872.png,True,actinic keratosis
+PAT_872,1708,False,False,GERMANY,GERMANY,71,False,FEMALE,False,False,False,True,2.0,HAND,6.0,5.0,ACK,True,False,False,False,False,False,PAT_872_1708_841.png,True,actinic keratosis
+PAT_180,756,False,True,GERMANY,GERMANY,54,False,FEMALE,False,True,False,False,3.0,ARM,15.0,13.0,ACK,True,True,False,False,True,False,PAT_180_756_831.png,False,actinic keratosis
+PAT_478,1829,False,True,POMERANIA,POMERANIA,47,True,MALE,False,False,False,False,2.0,BACK,16.0,10.0,BCC,True,True,False,False,True,True,PAT_478_1829_281.png,True,basal cell carcinoma
+PAT_1374,1286,,,,,54,,,,,,,,CHEST,,,ACK,True,False,False,False,True,True,PAT_1374_1286_775.png,False,actinic keratosis
+PAT_1584,2610,,,,,46,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1584_2610_223.png,False,actinic keratosis
+PAT_683,1297,True,False,POMERANIA,POLAND,74,True,MALE,False,True,True,True,2.0,BACK,19.0,17.0,BCC,True,True,True,True,False,True,PAT_683_1297_839.png,True,basal cell carcinoma
+PAT_1633,2855,,,,,51,,,,,,,,BACK,,,ACK,True,False,False,False,False,False,PAT_1633_2855_594.png,False,actinic keratosis
+PAT_380,1540,False,False,NETHERLANDS,GERMANY,60,True,MALE,False,True,True,True,2.0,NOSE,3.0,3.0,SCC,True,False,False,False,False,False,PAT_380_1540_432.png,True,squamous cell carcinoma
+PAT_91,354,False,False,ITALY,PORTUGAL,65,True,MALE,False,True,True,True,2.0,FACE,35.0,15.0,ACK,True,False,False,False,False,False,PAT_91_354_332.png,False,actinic keratosis
+PAT_274,423,False,False,POMERANIA,POMERANIA,84,False,FEMALE,False,True,False,False,3.0,NOSE,6.0,4.0,BCC,True,True,True,False,False,True,PAT_274_423_374.png,True,basal cell carcinoma
+PAT_727,1373,False,False,GERMANY,GERMANY,87,False,MALE,False,False,True,True,2.0,FACE,15.0,10.0,BCC,True,True,True,False,True,True,PAT_727_1373_776.png,True,basal cell carcinoma
+PAT_933,1766,False,True,GERMANY,GERMANY,61,True,MALE,True,True,True,False,3.0,CHEST,4.0,3.0,SCC,True,UNK,False,UNK,False,True,PAT_933_1766_191.png,True,squamous cell carcinoma
+PAT_1317,1130,,,,,72,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1317_1130_656.png,False,actinic keratosis
+PAT_976,1837,False,False,POMERANIA,POMERANIA,85,True,FEMALE,False,False,True,True,3.0,EAR,35.0,25.0,BCC,False,True,False,True,True,True,PAT_976_1837_503.png,True,basal cell carcinoma
+PAT_296,640,False,False,ITALY,ITALY,68,False,FEMALE,True,True,True,True,2.0,FACE,9.0,8.0,SCC,True,True,True,False,False,True,PAT_296_640_206.png,True,squamous cell carcinoma
+PAT_794,1507,False,False,GERMANY,GERMANY,64,False,FEMALE,False,False,True,True,3.0,FACE,7.0,7.0,BCC,False,UNK,False,UNK,False,True,PAT_794_1507_723.png,True,basal cell carcinoma
+PAT_91,356,False,False,ITALY,PORTUGAL,65,True,MALE,False,True,True,True,2.0,CHEST,35.0,15.0,ACK,True,False,False,False,True,False,PAT_91_356_273.png,False,actinic keratosis
+PAT_2018,4167,,,,,68,,,,,,,,FACE,,,ACK,False,False,False,False,False,True,PAT_2018_4167_11.png,False,actinic keratosis
+PAT_858,1632,False,False,ITALY,ITALY,73,False,FEMALE,True,False,True,True,2.0,CHEST,45.0,32.0,BCC,True,UNK,True,UNK,False,True,PAT_858_1632_977.png,True,basal cell carcinoma
+PAT_104,1755,False,False,POMERANIA,POMERANIA,79,True,FEMALE,True,True,False,False,2.0,FOREARM,15.0,13.0,ACK,True,False,False,False,False,True,PAT_104_1755_320.png,True,actinic keratosis
+PAT_55,85,False,False,GERMANY,GERMANY,66,False,FEMALE,False,True,True,True,1.0,FACE,11.0,7.0,BCC,True,True,False,False,True,True,PAT_55_85_884.png,True,basal cell carcinoma
+PAT_1596,2664,,,,,50,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1596_2664_323.png,False,actinic keratosis
+PAT_308,661,False,False,GERMANY,GERMANY,83,False,MALE,True,True,True,True,2.0,EAR,9.0,5.0,BCC,True,UNK,True,UNK,True,True,PAT_308_661_184.png,True,basal cell carcinoma
+PAT_145,216,False,False,POMERANIA,POMERANIA,68,False,FEMALE,False,True,False,True,2.0,NOSE,8.0,5.0,BCC,True,True,True,True,True,False,PAT_145_216_924.png,True,basal cell carcinoma
+PAT_978,1844,True,False,POMERANIA,POMERANIA,72,True,MALE,False,True,True,True,2.0,HAND,16.0,15.0,SCC,True,UNK,True,UNK,True,True,PAT_978_1844_715.png,True,squamous cell carcinoma
+PAT_684,1302,False,True,POMERANIA,POMERANIA,79,False,MALE,True,False,False,False,1.0,FOREARM,5.0,5.0,BCC,True,True,False,False,True,True,PAT_684_1302_934.png,True,basal cell carcinoma
+PAT_906,1722,False,False,GERMANY,GERMANY,65,True,MALE,False,False,True,True,2.0,BACK,16.0,15.0,BCC,True,UNK,False,UNK,True,True,PAT_906_1722_328.png,True,basal cell carcinoma
+PAT_325,1506,False,False,ITALY,ITALY,56,False,FEMALE,False,True,True,True,3.0,FACE,13.0,12.0,ACK,True,False,False,False,False,False,PAT_325_1506_999.png,True,actinic keratosis
+PAT_1594,2656,,,,,81,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1594_2656_679.png,False,actinic keratosis
+PAT_567,1077,False,False,GERMANY,GERMANY,44,False,MALE,False,True,True,True,1.0,CHEST,8.0,6.0,BCC,True,UNK,True,UNK,True,True,PAT_567_1077_64.png,True,basal cell carcinoma
+PAT_165,256,False,True,ITALY,PORTUGAL,39,False,MALE,False,False,True,True,2.0,THIGH,6.0,5.0,BCC,False,UNK,False,UNK,False,False,PAT_165_256_460.png,True,basal cell carcinoma
+PAT_990,1860,False,False,POMERANIA,POMERANIA,77,True,MALE,False,True,True,True,2.0,FOOT,5.0,5.0,SCC,True,UNK,False,UNK,True,True,PAT_990_1860_636.png,True,squamous cell carcinoma
+PAT_579,1099,False,False,GERMANY,POMERANIA,45,True,MALE,True,True,True,True,3.0,FOREARM,10.0,10.0,ACK,True,True,False,False,False,True,PAT_579_1099_551.png,True,actinic keratosis
+PAT_513,965,True,False,BRAZIL,BRAZIL,67,True,MALE,False,True,True,True,1.0,LIP,6.0,4.0,BCC,True,True,True,False,True,True,PAT_513_965_496.png,True,basal cell carcinoma
+PAT_303,652,True,True,ITALY,ITALY,64,True,MALE,False,False,True,True,2.0,FOREARM,26.0,18.0,BCC,True,False,True,False,True,True,PAT_303_652_943.png,True,basal cell carcinoma
+PAT_31,42,False,False,GERMANY,GERMANY,77,False,MALE,True,True,False,False,1.0,FOREARM,10.0,10.0,BCC,True,UNK,True,UNK,True,True,PAT_31_42_680.png,True,basal cell carcinoma
+PAT_380,1540,False,False,NETHERLANDS,GERMANY,60,True,MALE,False,True,True,True,2.0,NOSE,3.0,3.0,SCC,True,False,False,False,False,False,PAT_380_1540_525.png,True,squamous cell carcinoma
+PAT_91,356,False,False,ITALY,PORTUGAL,65,True,MALE,False,True,True,True,2.0,CHEST,35.0,15.0,ACK,True,False,False,False,True,False,PAT_91_356_74.png,False,actinic keratosis
+PAT_867,1650,False,False,POMERANIA,POMERANIA,47,True,FEMALE,True,False,True,True,3.0,CHEST,11.0,11.0,BCC,True,True,True,False,True,True,PAT_867_1650_825.png,True,basal cell carcinoma
+PAT_1538,1830,,,,,50,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1538_1830_693.png,False,actinic keratosis
+PAT_270,417,False,False,POMERANIA,POMERANIA,90,False,FEMALE,False,True,False,False,1.0,HAND,13.0,7.0,MEL,False,True,False,True,False,False,PAT_270_417_728.png,True,melanoma
+PAT_714,1337,True,False,GERMANY,GERMANY,67,True,MALE,True,True,True,True,3.0,EAR,15.0,11.0,SCC,True,True,False,True,False,True,PAT_714_1337_914.png,True,squamous cell carcinoma
+PAT_1151,551,,,,,60,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1151_551_241.png,False,actinic keratosis
+PAT_747,1408,False,False,UNK,BRAZIL,55,False,MALE,True,False,True,True,3.0,CHEST,13.0,12.0,BCC,True,True,False,False,False,True,PAT_747_1408_742.png,True,basal cell carcinoma
+PAT_631,1207,False,True,UNK,ITALY,64,False,MALE,True,True,True,False,2.0,FACE,12.0,9.0,BCC,True,UNK,False,UNK,True,True,PAT_631_1207_982.png,True,basal cell carcinoma
+PAT_361,743,False,False,POMERANIA,POMERANIA,70,True,MALE,True,False,False,False,3.0,FACE,14.0,3.0,BCC,False,True,False,True,False,True,PAT_361_743_82.png,True,basal cell carcinoma
+PAT_800,1513,True,False,GERMANY,GERMANY,66,True,MALE,False,False,True,True,2.0,NECK,8.0,6.0,BCC,True,UNK,False,UNK,True,True,PAT_800_1513_509.png,True,basal cell carcinoma
+PAT_333,702,False,False,ITALY,GERMANY,50,False,FEMALE,True,True,True,True,3.0,CHEST,7.0,5.0,MEL,False,True,False,True,False,False,PAT_333_702_840.png,True,melanoma
+PAT_915,1738,False,False,GERMANY,GERMANY,63,False,FEMALE,False,False,True,True,2.0,CHEST,14.0,9.0,BCC,True,UNK,False,UNK,False,True,PAT_915_1738_667.png,True,basal cell carcinoma
+PAT_91,356,False,False,ITALY,PORTUGAL,65,True,MALE,False,True,True,True,2.0,CHEST,35.0,15.0,ACK,True,False,False,False,True,False,PAT_91_356_456.png,False,actinic keratosis
+PAT_1320,1135,,,,,34,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1320_1135_471.png,False,actinic keratosis
+PAT_857,1627,False,False,UNK,GERMANY,78,False,MALE,True,True,True,False,2.0,THIGH,10.0,10.0,SCC,True,UNK,False,UNK,True,True,PAT_857_1627_310.png,True,squamous cell carcinoma
+PAT_829,1566,False,False,POMERANIA,POMERANIA,66,False,FEMALE,False,False,True,True,2.0,FACE,12.0,8.0,BCC,False,UNK,False,UNK,False,True,PAT_829_1566_135.png,True,basal cell carcinoma
+PAT_50,76,False,False,GERMANY,BRAZIL,81,False,FEMALE,True,False,True,True,2.0,BACK,7.0,18.0,BCC,True,True,False,False,True,True,PAT_50_76_728.png,True,basal cell carcinoma
+PAT_1414,1429,,,,,75,,,,,,,,ARM,,,ACK,True,False,False,False,True,False,PAT_1414_1429_53.png,False,actinic keratosis
+PAT_51,78,False,False,BRAZIL,ITALY,79,False,MALE,False,True,True,True,3.0,ARM,20.0,10.0,SCC,True,True,True,False,True,False,PAT_51_78_959.png,True,squamous cell carcinoma
+PAT_937,1768,False,True,GERMANY,GERMANY,64,False,MALE,False,True,True,True,2.0,FACE,12.0,10.0,ACK,False,True,False,False,False,True,PAT_937_1768_126.png,True,actinic keratosis
+PAT_1498,1715,,,,,68,,,,,,,,EAR,,,ACK,True,False,False,False,False,False,PAT_1498_1715_345.png,False,actinic keratosis
+PAT_441,2868,False,False,GERMANY,GERMANY,55,False,FEMALE,True,True,False,False,2.0,CHEST,6.0,5.0,ACK,True,False,False,False,False,False,PAT_441_2868_663.png,False,actinic keratosis
+PAT_650,1230,False,False,GERMANY,GERMANY,73,False,FEMALE,False,True,True,True,2.0,BACK,10.0,7.0,BCC,True,UNK,False,UNK,False,True,PAT_650_1230_636.png,True,basal cell carcinoma
+PAT_686,1355,True,True,GERMANY,GERMANY,32,True,MALE,True,True,True,True,3.0,FACE,17.0,15.0,SCC,True,True,True,True,True,True,PAT_686_1355_168.png,True,squamous cell carcinoma
+PAT_883,1682,False,True,GERMANY,GERMANY,71,True,MALE,False,True,True,True,2.0,LIP,6.0,5.0,ACK,False,True,False,False,False,True,PAT_883_1682_256.png,True,actinic keratosis
+PAT_599,1140,False,False,POMERANIA,POMERANIA,82,True,FEMALE,True,False,True,True,2.0,ARM,18.0,15.0,ACK,True,False,False,False,False,False,PAT_599_1140_399.png,True,actinic keratosis
+PAT_1740,3272,,,,,54,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1740_3272_228.png,False,actinic keratosis
+PAT_830,1565,True,True,ITALY,GERMANY,84,False,MALE,True,False,False,False,2.0,FACE,7.0,6.0,BCC,False,UNK,False,UNK,False,True,PAT_830_1565_911.png,True,basal cell carcinoma
+PAT_269,415,False,True,POMERANIA,POMERANIA,58,True,MALE,False,False,False,False,2.0,CHEST,20.0,18.0,BCC,True,True,True,False,True,True,PAT_269_415_906.png,True,basal cell carcinoma
+PAT_567,1078,False,False,GERMANY,GERMANY,44,False,MALE,False,True,True,True,1.0,ABDOMEN,12.0,9.0,BCC,True,UNK,True,UNK,True,True,PAT_567_1078_978.png,True,basal cell carcinoma
+PAT_1428,1489,,,,,68,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1428_1489_454.png,False,actinic keratosis
+PAT_912,1729,False,False,GERMANY,GERMANY,33,True,FEMALE,True,False,False,False,2.0,FACE,8.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_912_1729_244.png,True,basal cell carcinoma
+PAT_63,1075,False,False,BRAZIL,NORWAY,36,False,FEMALE,False,True,True,True,2.0,CHEST,15.0,10.0,BCC,True,True,True,False,True,True,PAT_63_1075_331.png,True,basal cell carcinoma
+PAT_1854,3637,,,,,74,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,True,PAT_1854_3637_323.png,False,actinic keratosis
+PAT_1804,3469,,,,,57,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_1804_3469_628.png,False,actinic keratosis
+PAT_59,93,True,False,BRAZIL,BRAZIL,72,False,FEMALE,False,False,True,False,2.0,ARM,23.0,15.0,BCC,True,False,False,False,False,False,PAT_59_93_573.png,True,basal cell carcinoma
+PAT_1581,2570,,,,,92,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_1581_2570_738.png,False,actinic keratosis
+PAT_662,1251,False,True,GERMANY,GERMANY,40,False,MALE,True,True,True,True,3.0,CHEST,30.0,25.0,BCC,False,True,False,True,True,True,PAT_662_1251_43.png,True,basal cell carcinoma
+PAT_656,1246,False,False,UNK,UNK,58,False,MALE,False,False,True,True,2.0,BACK,18.0,12.0,MEL,True,True,False,True,False,False,PAT_656_1246_489.png,True,melanoma
+PAT_1324,1146,,,,,67,,,,,,,,ARM,,,ACK,True,False,False,False,True,False,PAT_1324_1146_143.png,False,actinic keratosis
+PAT_230,1009,False,False,POMERANIA,POMERANIA,73,False,FEMALE,False,False,False,False,2.0,FOREARM,9.0,6.0,ACK,True,False,True,False,False,False,PAT_230_1009_92.png,False,actinic keratosis
+PAT_56,88,False,False,GERMANY,GERMANY,70,False,FEMALE,False,True,True,True,2.0,NOSE,11.0,10.0,BCC,True,UNK,True,UNK,True,True,PAT_56_88_274.png,True,basal cell carcinoma
+PAT_193,297,False,False,POLAND,POLAND,66,False,FEMALE,False,True,False,False,2.0,NOSE,4.0,4.0,BCC,False,UNK,False,UNK,False,True,PAT_193_297_295.png,True,basal cell carcinoma
+PAT_757,1431,False,False,GERMANY,GERMANY,77,False,MALE,True,False,True,True,2.0,NECK,10.0,9.0,ACK,True,True,False,True,True,True,PAT_757_1431_907.png,True,actinic keratosis
+PAT_445,871,False,False,ITALY,POMERANIA,61,False,FEMALE,False,True,False,False,2.0,NOSE,15.0,7.0,BCC,True,True,True,False,True,True,PAT_445_871_524.png,True,basal cell carcinoma
+PAT_904,1737,False,False,GERMANY,GERMANY,70,True,MALE,False,False,True,True,2.0,FOREARM,19.0,15.0,BCC,True,UNK,False,UNK,False,True,PAT_904_1737_511.png,True,basal cell carcinoma
+PAT_325,1506,False,False,ITALY,ITALY,56,False,FEMALE,False,True,True,True,3.0,FACE,13.0,12.0,ACK,True,False,False,False,False,False,PAT_325_1506_440.png,True,actinic keratosis
+PAT_866,1649,False,True,POMERANIA,POMERANIA,56,True,MALE,True,True,True,False,3.0,FOREARM,10.0,8.0,BCC,False,True,False,False,False,True,PAT_866_1649_674.png,True,basal cell carcinoma
+PAT_370,2558,True,True,GERMANY,GERMANY,62,True,MALE,True,True,False,False,3.0,FOREARM,11.0,8.0,ACK,True,False,False,False,True,False,PAT_370_2558_573.png,False,actinic keratosis
+PAT_864,1645,False,False,POMERANIA,POMERANIA,55,False,FEMALE,False,False,True,True,3.0,BACK,16.0,13.0,BCC,True,True,False,False,True,True,PAT_864_1645_626.png,True,basal cell carcinoma
+PAT_1575,2516,,,,,75,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1575_2516_618.png,False,actinic keratosis
+PAT_753,1834,False,False,GERMANY,GERMANY,59,False,FEMALE,False,True,True,True,3.0,CHEST,4.0,4.0,ACK,True,False,False,False,False,False,PAT_753_1834_712.png,False,actinic keratosis
+PAT_1033,153,,,,,41,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1033_153_301.png,False,actinic keratosis
+PAT_972,1843,False,False,POMERANIA,POMERANIA,45,False,FEMALE,True,False,False,False,2.0,ARM,5.0,3.0,MEL,False,True,False,True,False,False,PAT_972_1843_756.png,True,melanoma
+PAT_161,250,False,False,GERMANY,GERMANY,86,False,FEMALE,False,True,False,False,2.0,ARM,14.0,12.0,BCC,True,False,False,False,False,False,PAT_161_250_197.png,True,basal cell carcinoma
+PAT_272,420,False,False,POMERANIA,POMERANIA,83,False,FEMALE,False,False,False,False,2.0,BACK,32.0,28.0,BCC,False,False,False,False,False,True,PAT_272_420_10.png,True,basal cell carcinoma
+PAT_73,111,True,False,ITALY,BRAZIL,86,False,FEMALE,False,False,True,True,2.0,NOSE,13.0,10.0,BCC,True,UNK,False,UNK,False,True,PAT_73_111_609.png,True,basal cell carcinoma
+PAT_1492,1705,,,,,63,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,True,PAT_1492_1705_728.png,False,actinic keratosis
+PAT_720,1362,False,True,GERMANY,GERMANY,54,False,FEMALE,False,True,True,True,2.0,ARM,11.0,10.0,BCC,False,False,False,False,True,True,PAT_720_1362_700.png,True,basal cell carcinoma
+PAT_2079,4480,,,,,61,,,,,,,,THIGH,,,ACK,True,True,False,False,False,True,PAT_2079_4480_586.png,False,actinic keratosis
+PAT_84,128,False,False,POMERANIA,POMERANIA,69,False,FEMALE,False,True,False,False,2.0,FACE,11.0,7.0,BCC,True,True,True,False,True,True,PAT_84_128_233.png,True,basal cell carcinoma
+PAT_478,1829,False,True,POMERANIA,POMERANIA,47,True,MALE,False,False,False,False,2.0,BACK,16.0,10.0,BCC,True,True,False,False,True,True,PAT_478_1829_141.png,True,basal cell carcinoma
+PAT_364,748,True,False,GERMANY,PORTUGAL,66,False,FEMALE,True,False,False,False,2.0,FACE,17.0,8.0,BCC,True,False,True,False,True,True,PAT_364_748_278.png,True,basal cell carcinoma
+PAT_1249,861,,,,,73,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,False,PAT_1249_861_810.png,False,actinic keratosis
+PAT_191,293,True,False,POMERANIA,POMERANIA,85,False,FEMALE,False,True,True,True,2.0,ARM,15.0,10.0,BCC,True,True,True,False,True,True,PAT_191_293_314.png,True,basal cell carcinoma
+PAT_573,1090,False,False,POMERANIA,POMERANIA,51,True,FEMALE,True,False,False,False,4.0,FACE,9.0,7.0,BCC,True,True,True,False,False,True,PAT_573_1090_164.png,True,basal cell carcinoma
+PAT_834,1572,False,False,GERMANY,GERMANY,81,False,MALE,True,True,True,False,2.0,FACE,9.0,8.0,SCC,False,False,False,False,False,True,PAT_834_1572_430.png,True,squamous cell carcinoma
+PAT_46,879,False,False,POMERANIA,POMERANIA,55,False,FEMALE,True,True,True,True,3.0,CHEST,10.0,10.0,BCC,True,True,False,True,False,False,PAT_46_879_386.png,True,basal cell carcinoma
+PAT_242,369,True,True,GERMANY,GERMANY,45,False,FEMALE,True,True,True,True,2.0,CHEST,12.0,12.0,BCC,True,True,False,False,False,True,PAT_242_369_930.png,True,basal cell carcinoma
+PAT_13,21,False,False,ITALY,ITALY,54,False,FEMALE,False,True,True,True,1.0,NOSE,10.0,8.0,BCC,True,UNK,True,UNK,True,True,PAT_13_21_350.png,True,basal cell carcinoma
+PAT_392,792,False,True,ITALY,ITALY,48,True,MALE,True,True,False,False,3.0,FACE,7.0,5.0,BCC,True,True,False,True,False,True,PAT_392_792_22.png,True,basal cell carcinoma
+PAT_146,217,False,True,BRAZIL,GERMANY,70,True,MALE,True,False,True,True,2.0,FACE,15.0,11.0,BCC,True,UNK,False,UNK,False,False,PAT_146_217_187.png,True,basal cell carcinoma
+PAT_367,753,False,False,POMERANIA,POMERANIA,72,False,FEMALE,True,False,False,True,2.0,NECK,6.0,5.0,SCC,False,UNK,False,UNK,False,False,PAT_367_753_130.png,True,squamous cell carcinoma
+PAT_986,1855,False,True,POMERANIA,POMERANIA,60,False,MALE,False,False,True,True,2.0,FOREARM,15.0,15.0,BCC,True,UNK,False,UNK,True,True,PAT_986_1855_702.png,True,basal cell carcinoma
+PAT_370,758,True,True,GERMANY,GERMANY,61,True,MALE,True,True,False,False,3.0,FOREARM,11.0,8.0,ACK,True,False,True,False,False,True,PAT_370_758_322.png,True,actinic keratosis
+PAT_1063,268,,,,,65,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1063_268_919.png,False,actinic keratosis
+PAT_1464,1612,,,,,69,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1464_1612_284.png,False,actinic keratosis
+PAT_662,1251,False,True,GERMANY,GERMANY,40,False,MALE,True,True,True,True,3.0,CHEST,30.0,25.0,BCC,False,True,False,True,True,True,PAT_662_1251_380.png,True,basal cell carcinoma
+PAT_575,1087,False,False,GERMANY,GERMANY,80,False,FEMALE,True,False,True,True,1.0,FACE,10.0,9.0,BCC,True,True,False,False,True,True,PAT_575_1087_29.png,True,basal cell carcinoma
+PAT_383,777,False,False,GERMANY,GERMANY,73,False,MALE,True,True,True,True,2.0,FACE,12.0,10.0,SCC,True,UNK,False,UNK,False,True,PAT_383_777_129.png,True,squamous cell carcinoma
+PAT_545,1031,False,False,UNK,UNK,37,True,MALE,True,True,True,True,2.0,BACK,12.0,7.0,BCC,True,UNK,False,UNK,False,True,PAT_545_1031_428.png,True,basal cell carcinoma
+PAT_872,1709,False,False,GERMANY,GERMANY,71,False,FEMALE,False,False,False,True,2.0,FOREARM,10.0,6.0,ACK,True,False,False,False,False,True,PAT_872_1709_526.png,True,actinic keratosis
+PAT_537,1014,True,True,BRAZIL,BRAZIL,62,True,MALE,False,False,True,True,2.0,HAND,8.0,7.0,SCC,False,False,True,False,False,True,PAT_537_1014_452.png,True,squamous cell carcinoma
+PAT_632,1206,False,False,UNK,UNK,73,False,FEMALE,False,False,True,True,2.0,HAND,18.0,14.0,SCC,True,False,False,False,False,True,PAT_632_1206_634.png,True,squamous cell carcinoma
+PAT_632,1206,False,False,UNK,UNK,73,False,FEMALE,False,False,True,True,2.0,HAND,18.0,14.0,SCC,True,False,False,False,False,True,PAT_632_1206_637.png,True,squamous cell carcinoma
+PAT_683,1297,True,False,POMERANIA,POLAND,74,True,MALE,False,True,True,True,2.0,BACK,19.0,17.0,BCC,True,True,True,True,False,True,PAT_683_1297_195.png,True,basal cell carcinoma
+PAT_982,1852,False,False,POMERANIA,POMERANIA,68,False,FEMALE,True,True,True,True,3.0,FOREARM,17.0,14.0,ACK,True,False,False,False,False,True,PAT_982_1852_526.png,True,actinic keratosis
+PAT_574,1081,False,False,BRAZIL,POMERANIA,51,True,MALE,True,True,True,True,3.0,CHEST,15.0,7.0,SCC,True,UNK,False,UNK,False,True,PAT_574_1081_628.png,True,squamous cell carcinoma
+PAT_736,1392,False,False,POMERANIA,POMERANIA,48,False,FEMALE,True,False,True,True,3.0,ARM,12.0,8.0,BCC,True,UNK,False,UNK,False,True,PAT_736_1392_562.png,True,basal cell carcinoma
+PAT_687,1304,True,False,UNK,UNK,49,False,FEMALE,False,True,False,False,5.0,NOSE,7.0,6.0,BCC,False,True,False,True,False,True,PAT_687_1304_898.png,True,basal cell carcinoma
+PAT_719,1361,False,False,POMERANIA,POMERANIA,66,True,FEMALE,True,True,True,True,2.0,FOREARM,29.0,19.0,MEL,False,False,False,False,False,False,PAT_719_1361_160.png,True,melanoma
+PAT_992,1864,False,False,GERMANY,GERMANY,51,True,MALE,False,False,False,False,3.0,HAND,9.0,8.0,ACK,True,False,False,False,False,False,PAT_992_1864_653.png,True,actinic keratosis
+PAT_1051,220,,,,,47,,,,,,,,NOSE,,,ACK,False,False,False,False,False,False,PAT_1051_220_356.png,False,actinic keratosis
+PAT_1536,1819,,,,,71,,,,,,,,FOREARM,,,ACK,True,False,False,False,True,True,PAT_1536_1819_562.png,False,actinic keratosis
+PAT_387,1614,False,False,BRAZIL,ITALY,58,True,MALE,False,True,False,False,2.0,FACE,6.0,5.0,BCC,True,True,False,False,True,False,PAT_387_1614_866.png,True,basal cell carcinoma
+PAT_1707,3148,,,,,75,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_1707_3148_237.png,False,actinic keratosis
+PAT_167,258,False,False,GERMANY,GERMANY,58,True,MALE,True,True,False,False,1.0,FACE,10.0,7.0,BCC,True,True,True,True,True,True,PAT_167_258_479.png,True,basal cell carcinoma
+PAT_710,1330,False,False,SPAIN,BRAZIL,53,True,FEMALE,True,True,True,True,3.0,FACE,10.0,9.0,MEL,False,UNK,False,UNK,False,False,PAT_710_1330_243.png,True,melanoma
+PAT_145,216,False,False,POMERANIA,POMERANIA,68,False,FEMALE,False,True,False,True,2.0,NOSE,8.0,5.0,BCC,True,True,True,True,True,False,PAT_145_216_110.png,True,basal cell carcinoma
+PAT_317,675,False,False,UNK,UNK,65,False,FEMALE,True,True,True,True,3.0,NOSE,7.0,5.0,ACK,False,False,False,False,False,False,PAT_317_675_144.png,True,actinic keratosis
+PAT_31,43,False,False,GERMANY,GERMANY,77,False,MALE,True,True,False,False,1.0,NOSE,7.0,5.0,BCC,True,UNK,False,UNK,False,True,PAT_31_43_129.png,True,basal cell carcinoma
+PAT_1980,4018,,,,,65,,,,,,,,FOREARM,,,ACK,True,True,False,False,False,False,PAT_1980_4018_929.png,False,actinic keratosis
+PAT_454,884,True,False,POMERANIA,POMERANIA,54,True,FEMALE,True,False,False,False,2.0,FOREARM,12.0,10.0,SCC,True,True,True,False,False,True,PAT_454_884_28.png,True,squamous cell carcinoma
+PAT_91,140,False,False,ITALY,PORTUGAL,83,True,MALE,False,True,True,True,2.0,FOREARM,35.0,15.0,ACK,True,False,False,False,False,False,PAT_91_140_664.png,True,actinic keratosis
+PAT_484,926,False,True,POMERANIA,POMERANIA,55,True,FEMALE,False,False,False,False,2.0,THIGH,16.0,5.0,ACK,False,False,False,False,False,False,PAT_484_926_624.png,True,actinic keratosis
+PAT_742,1470,False,False,POMERANIA,POMERANIA,79,False,FEMALE,False,False,True,True,2.0,HAND,15.0,10.0,ACK,True,True,False,False,False,True,PAT_742_1470_834.png,False,actinic keratosis
+PAT_215,330,False,False,GERMANY,GERMANY,91,True,FEMALE,False,True,True,True,1.0,FACE,12.0,10.0,SCC,True,True,False,True,True,True,PAT_215_330_341.png,True,squamous cell carcinoma
+PAT_890,1693,False,True,GERMANY,ITALY,55,True,FEMALE,True,True,False,False,2.0,CHEST,9.0,6.0,MEL,False,False,False,False,False,False,PAT_890_1693_904.png,True,melanoma
+PAT_1969,3980,,,,,62,,,,,,,,EAR,,,ACK,True,False,False,False,False,False,PAT_1969_3980_995.png,False,actinic keratosis
+PAT_307,1685,False,False,ITALY,ITALY,74,False,FEMALE,False,False,False,False,2.0,FOREARM,4.0,4.0,ACK,True,True,False,False,False,False,PAT_307_1685_651.png,False,actinic keratosis
+PAT_1415,1440,,,,,77,,,,,,,,FOREARM,,,ACK,False,False,False,False,False,False,PAT_1415_1440_629.png,False,actinic keratosis
+PAT_1414,1433,,,,,75,,,,,,,,HAND,,,ACK,True,False,False,False,False,True,PAT_1414_1433_570.png,False,actinic keratosis
+PAT_355,732,False,False,POMERANIA,POMERANIA,80,False,MALE,False,False,True,True,2.0,NECK,5.0,5.0,BCC,True,True,False,False,False,True,PAT_355_732_102.png,True,basal cell carcinoma
+PAT_781,1474,False,False,GERMANY,GERMANY,55,False,FEMALE,True,True,True,True,3.0,FACE,10.0,4.0,BCC,False,True,False,True,False,True,PAT_781_1474_517.png,True,basal cell carcinoma
+PAT_1571,2484,,,,,52,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1571_2484_488.png,False,actinic keratosis
+PAT_2077,4463,,,,,43,,,,,,,,HAND,,,ACK,False,False,False,False,True,True,PAT_2077_4463_77.png,False,actinic keratosis
+PAT_920,1748,False,False,UNK,UNK,56,True,FEMALE,False,False,True,False,2.0,NOSE,6.0,5.0,ACK,True,False,False,False,False,False,PAT_920_1748_942.png,True,actinic keratosis
+PAT_684,1303,False,True,POMERANIA,POMERANIA,79,False,MALE,True,False,False,False,1.0,HAND,12.0,10.0,BCC,True,True,False,True,True,True,PAT_684_1303_368.png,True,basal cell carcinoma
+PAT_890,1693,False,True,GERMANY,ITALY,55,True,FEMALE,True,True,False,False,2.0,CHEST,9.0,6.0,MEL,False,False,False,False,False,False,PAT_890_1693_454.png,True,melanoma
+PAT_1421,1464,,,,,62,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1421_1464_297.png,False,actinic keratosis
+PAT_70,107,False,True,ITALY,ITALY,67,True,MALE,False,False,False,False,2.0,THIGH,9.0,7.0,MEL,False,True,False,True,False,False,PAT_70_107_155.png,True,melanoma
+PAT_464,1794,False,False,GERMANY,GERMANY,75,True,FEMALE,True,True,False,False,3.0,NECK,25.0,13.0,BCC,False,True,True,False,False,False,PAT_464_1794_271.png,True,basal cell carcinoma
+PAT_636,1204,False,False,BRAZIL,BRAZIL,78,False,FEMALE,True,True,True,True,2.0,CHEST,20.0,18.0,BCC,True,True,True,True,True,True,PAT_636_1204_666.png,True,basal cell carcinoma
+PAT_562,1110,True,True,POMERANIA,POMERANIA,58,True,MALE,False,True,True,True,2.0,NOSE,0.0,0.0,BCC,False,True,False,False,False,True,PAT_562_1110_360.png,True,basal cell carcinoma
+PAT_1260,894,,,,,41,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1260_894_63.png,False,actinic keratosis
+PAT_878,1663,False,False,POMERANIA,NETHERLANDS,74,True,FEMALE,False,True,True,True,2.0,THIGH,10.0,8.0,ACK,True,False,False,False,False,True,PAT_878_1663_7.png,True,actinic keratosis
+PAT_983,1854,False,False,POMERANIA,POMERANIA,78,False,FEMALE,False,False,True,True,2.0,ARM,10.0,6.0,ACK,True,False,True,False,False,True,PAT_983_1854_274.png,True,actinic keratosis
+PAT_75,113,False,False,GERMANY,GERMANY,50,True,MALE,True,False,True,True,2.0,FACE,11.0,11.0,SCC,True,UNK,False,UNK,False,True,PAT_75_113_647.png,True,squamous cell carcinoma
+PAT_2024,4221,,,,,73,,,,,,,,CHEST,,,ACK,True,False,False,False,False,False,PAT_2024_4221_632.png,False,actinic keratosis
+PAT_1633,2855,,,,,51,,,,,,,,BACK,,,ACK,True,False,False,False,False,False,PAT_1633_2855_460.png,False,actinic keratosis
+PAT_202,308,False,False,ITALY,UNK,77,False,FEMALE,False,True,True,True,3.0,FOREARM,11.0,6.0,ACK,True,True,False,False,True,True,PAT_202_308_692.png,True,actinic keratosis
+PAT_767,1501,True,False,POMERANIA,POMERANIA,86,False,MALE,False,True,True,False,2.0,FACE,0.0,0.0,BCC,True,UNK,False,UNK,True,True,PAT_767_1501_691.png,True,basal cell carcinoma
+PAT_842,1606,False,False,GERMANY,GERMANY,40,True,FEMALE,True,True,True,False,3.0,CHEST,31.0,21.0,BCC,False,True,False,False,False,False,PAT_842_1606_971.png,True,basal cell carcinoma
+PAT_1063,271,,,,,65,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1063_271_448.png,False,actinic keratosis
+PAT_624,1179,False,False,ITALY,ITALY,75,False,FEMALE,True,True,True,True,2.0,CHEST,10.0,9.0,SCC,True,UNK,False,UNK,False,True,PAT_624_1179_323.png,True,squamous cell carcinoma
+PAT_148,220,False,True,POMERANIA,POMERANIA,48,True,MALE,False,False,False,False,2.0,EAR,8.0,8.0,ACK,True,False,False,False,False,False,PAT_148_220_174.png,True,actinic keratosis
+PAT_85,129,False,False,UNK,UNK,71,False,FEMALE,False,True,False,False,3.0,CHEST,4.0,3.0,ACK,False,True,False,False,False,True,PAT_85_129_896.png,True,actinic keratosis
+PAT_889,1689,False,False,POMERANIA,POMERANIA,71,False,FEMALE,False,False,True,True,3.0,THIGH,20.0,18.0,ACK,True,False,True,False,False,True,PAT_889_1689_986.png,True,actinic keratosis
+PAT_645,1461,False,False,GERMANY,GERMANY,58,True,FEMALE,True,False,False,False,3.0,HAND,16.0,13.0,BCC,True,True,False,False,True,True,PAT_645_1461_111.png,True,basal cell carcinoma
+PAT_2140,4726,,,,,45,,,,,,,,NECK,,,ACK,True,False,False,False,False,True,PAT_2140_4726_85.png,False,actinic keratosis
+PAT_990,1860,False,False,POMERANIA,POMERANIA,77,True,MALE,False,True,True,True,2.0,FOOT,5.0,5.0,SCC,True,UNK,False,UNK,True,True,PAT_990_1860_478.png,True,squamous cell carcinoma
+PAT_553,1049,False,False,GERMANY,GERMANY,70,True,MALE,False,False,True,True,1.0,NOSE,10.0,9.0,BCC,False,UNK,False,UNK,False,True,PAT_553_1049_461.png,True,basal cell carcinoma
+PAT_744,1404,False,False,GERMANY,GERMANY,90,False,MALE,False,True,True,True,2.0,FOREARM,11.0,11.0,BCC,True,True,False,False,False,True,PAT_744_1404_951.png,True,basal cell carcinoma
+PAT_488,931,False,False,POMERANIA,POMERANIA,80,True,FEMALE,False,True,False,False,2.0,FACE,90.0,70.0,BCC,True,UNK,False,UNK,False,True,PAT_488_931_321.png,True,basal cell carcinoma
+PAT_1701,3136,,,,,75,,,,,,,,FOREARM,,,ACK,True,False,False,False,False,False,PAT_1701_3136_33.png,False,actinic keratosis
+PAT_763,1439,False,False,BRAZIL,BRAZIL,66,False,FEMALE,False,True,True,True,4.0,THIGH,15.0,15.0,ACK,False,False,False,False,False,True,PAT_763_1439_668.png,True,actinic keratosis
+PAT_857,1628,False,False,UNK,GERMANY,78,False,MALE,True,True,True,False,2.0,FOOT,15.0,10.0,ACK,True,True,True,True,False,True,PAT_857_1628_916.png,True,actinic keratosis
+PAT_880,1674,False,False,GERMANY,GERMANY,83,False,FEMALE,True,False,True,False,2.0,THIGH,10.0,8.0,ACK,True,False,False,False,False,False,PAT_880_1674_223.png,True,actinic keratosis
+PAT_1026,124,,,,,52,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1026_124_206.png,False,actinic keratosis
+PAT_389,2600,False,False,POMERANIA,GERMANY,58,True,FEMALE,True,True,False,False,2.0,HAND,6.0,5.0,ACK,True,True,False,False,False,False,PAT_389_2600_833.png,False,actinic keratosis
+PAT_653,1234,False,False,ITALY,BRAZIL,80,False,MALE,False,True,True,True,2.0,EAR,15.0,10.0,SCC,True,UNK,False,UNK,False,True,PAT_653_1234_311.png,True,squamous cell carcinoma
+PAT_113,172,False,True,GERMANY,GERMANY,71,False,MALE,False,False,False,False,1.0,HAND,20.0,15.0,SCC,True,UNK,True,UNK,False,True,PAT_113_172_610.png,True,squamous cell carcinoma
+PAT_849,1613,False,False,BRAZIL,GERMANY,63,True,MALE,False,True,True,True,2.0,BACK,4.0,4.0,ACK,False,False,UNK,False,False,True,PAT_849_1613_824.png,True,actinic keratosis
+PAT_104,1756,False,False,POMERANIA,POMERANIA,79,True,FEMALE,True,True,False,False,2.0,NOSE,13.0,9.0,BCC,True,True,False,False,False,False,PAT_104_1756_151.png,True,basal cell carcinoma
+PAT_682,1292,False,False,POMERANIA,POMERANIA,75,False,FEMALE,True,False,True,True,2.0,BACK,10.0,10.0,BCC,True,True,False,False,True,True,PAT_682_1292_642.png,True,basal cell carcinoma
+PAT_913,1730,False,False,GERMANY,GERMANY,78,False,FEMALE,False,True,True,True,3.0,FOREARM,8.0,6.0,BCC,True,UNK,False,UNK,True,True,PAT_913_1730_815.png,True,basal cell carcinoma
+PAT_191,293,True,False,POMERANIA,POMERANIA,85,False,FEMALE,False,True,True,True,2.0,ARM,15.0,10.0,BCC,True,True,True,False,True,True,PAT_191_293_699.png,True,basal cell carcinoma
+PAT_387,786,False,False,BRAZIL,ITALY,57,True,MALE,False,True,False,False,2.0,BACK,23.0,20.0,SCC,True,True,False,False,True,False,PAT_387_786_782.png,True,squamous cell carcinoma
+PAT_40,56,False,False,GERMANY,GERMANY,42,False,FEMALE,True,False,False,False,1.0,ARM,20.0,12.0,BCC,True,False,False,False,False,True,PAT_40_56_499.png,True,basal cell carcinoma
+PAT_2114,4609,,,,,70,,,,,,,,NOSE,,,ACK,True,False,False,False,False,True,PAT_2114_4609_615.png,False,actinic keratosis
+PAT_973,1839,False,False,ITALY,ITALY,64,True,MALE,False,True,True,True,3.0,NECK,5.0,3.0,ACK,True,False,False,False,False,False,PAT_973_1839_34.png,True,actinic keratosis
+PAT_479,917,False,False,POMERANIA,POMERANIA,48,True,MALE,True,False,False,False,2.0,FACE,15.0,14.0,BCC,True,True,False,False,True,True,PAT_479_917_598.png,True,basal cell carcinoma
+PAT_202,308,False,False,ITALY,UNK,77,False,FEMALE,False,True,True,True,3.0,FOREARM,11.0,6.0,ACK,True,True,False,False,True,True,PAT_202_308_721.png,True,actinic keratosis
+PAT_1246,846,,,,,51,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1246_846_111.png,False,actinic keratosis
+PAT_1540,1847,,,,,88,,,,,,,,FACE,,,ACK,True,False,False,False,False,False,PAT_1540_1847_249.png,False,actinic keratosis
+PAT_785,1479,False,False,ITALY,ITALY,77,False,FEMALE,False,False,False,False,4.0,NOSE,15.0,15.0,BCC,True,True,False,False,False,True,PAT_785_1479_108.png,True,basal cell carcinoma
+PAT_214,329,False,False,GERMANY,UNK,73,True,MALE,True,True,False,False,2.0,FOREARM,15.0,10.0,BCC,True,False,True,False,True,True,PAT_214_329_300.png,True,basal cell carcinoma
+PAT_383,779,False,False,GERMANY,GERMANY,73,False,MALE,True,True,True,True,2.0,FACE,7.0,5.0,BCC,True,False,False,False,False,True,PAT_383_779_429.png,True,basal cell carcinoma
+PAT_131,197,False,False,GERMANY,GERMANY,90,False,FEMALE,True,True,True,True,2.0,FOREARM,17.0,15.0,SCC,True,True,True,False,True,True,PAT_131_197_260.png,True,squamous cell carcinoma
+PAT_564,1079,True,False,BRAZIL,BRAZIL,73,False,FEMALE,False,False,True,False,2.0,ARM,18.0,8.0,BCC,True,True,False,True,True,True,PAT_564_1079_31.png,True,basal cell carcinoma
+PAT_527,1360,True,True,GERMANY,GERMANY,60,True,MALE,True,False,True,True,1.0,FOREARM,15.0,15.0,BCC,True,UNK,True,UNK,True,True,PAT_527_1360_225.png,True,basal cell carcinoma
+PAT_715,1338,False,True,POMERANIA,POMERANIA,80,True,MALE,False,True,True,True,2.0,FACE,12.0,8.0,ACK,True,False,False,False,False,False,PAT_715_1338_761.png,True,actinic keratosis
+PAT_1418,1452,,,,,86,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_1418_1452_948.png,False,actinic keratosis
+PAT_1967,3976,,,,,75,,,,,,,,FOREARM,,,ACK,True,False,False,False,True,False,PAT_1967_3976_736.png,False,actinic keratosis
+PAT_575,1088,False,False,GERMANY,GERMANY,80,False,FEMALE,True,False,True,True,1.0,FACE,4.0,4.0,BCC,False,True,False,False,False,True,PAT_575_1088_134.png,True,basal cell carcinoma
+PAT_97,151,False,False,GERMANY,GERMANY,47,True,MALE,False,False,True,False,2.0,CHEST,22.0,15.0,BCC,True,True,False,False,True,True,PAT_97_151_587.png,True,basal cell carcinoma
+PAT_1757,3316,,,,,78,,,,,,,,FOREARM,,,ACK,True,True,False,False,False,True,PAT_1757_3316_304.png,False,actinic keratosis
+PAT_886,1684,False,False,GERMANY,UNK,70,False,FEMALE,False,False,True,True,3.0,ARM,10.0,6.0,ACK,False,True,True,True,False,True,PAT_886_1684_103.png,True,actinic keratosis
+PAT_645,1500,False,False,GERMANY,GERMANY,58,True,FEMALE,True,False,False,False,3.0,HAND,6.0,5.0,BCC,True,True,False,False,True,True,PAT_645_1500_364.png,True,basal cell carcinoma
+PAT_135,202,False,False,POMERANIA,POMERANIA,53,True,FEMALE,False,True,False,False,2.0,BACK,10.0,9.0,BCC,True,True,True,False,True,True,PAT_135_202_593.png,True,basal cell carcinoma
+PAT_215,330,False,False,GERMANY,GERMANY,91,True,FEMALE,False,True,True,True,1.0,FACE,12.0,10.0,SCC,True,True,False,True,True,True,PAT_215_330_224.png,True,squamous cell carcinoma
+PAT_90,138,False,False,POMERANIA,POMERANIA,73,False,FEMALE,False,True,True,True,3.0,FACE,7.0,6.0,BCC,True,True,True,False,True,False,PAT_90_138_605.png,True,basal cell carcinoma
+PAT_474,912,False,True,GERMANY,GERMANY,38,True,FEMALE,False,True,False,False,2.0,EAR,13.0,8.0,BCC,True,True,False,False,True,True,PAT_474_912_879.png,True,basal cell carcinoma
+PAT_279,430,False,True,POMERANIA,POMERANIA,51,True,MALE,False,True,False,False,2.0,FOREARM,17.0,15.0,ACK,True,True,False,False,True,True,PAT_279_430_356.png,True,actinic keratosis
+PAT_999,20,,,,,40,,,,,,,,ARM,,,ACK,True,False,False,False,True,False,PAT_999_20_401.png,False,actinic keratosis
+PAT_229,349,False,True,POMERANIA,POMERANIA,74,False,MALE,True,True,False,False,3.0,NOSE,10.0,8.0,BCC,True,False,False,False,True,True,PAT_229_349_141.png,True,basal cell carcinoma
+PAT_985,1856,False,False,POMERANIA,POMERANIA,49,True,MALE,True,False,True,True,3.0,NOSE,14.0,9.0,BCC,True,True,True,False,True,True,PAT_985_1856_91.png,True,basal cell carcinoma
+PAT_160,249,False,True,ITALY,ITALY,78,False,MALE,False,True,False,False,2.0,FOREARM,13.0,10.0,BCC,True,True,True,False,True,True,PAT_160_249_76.png,True,basal cell carcinoma
+PAT_192,884,False,False,ITALY,ITALY,70,True,MALE,False,False,True,True,2.0,FOREARM,10.0,10.0,ACK,True,False,False,False,False,False,PAT_192_884_310.png,False,actinic keratosis
+PAT_987,1859,False,False,POMERANIA,POMERANIA,47,True,FEMALE,True,False,False,False,3.0,FACE,13.0,9.0,ACK,True,True,True,True,False,True,PAT_987_1859_724.png,True,actinic keratosis
+PAT_1403,1392,,,,,50,,,,,,,,NOSE,,,ACK,False,False,False,False,False,False,PAT_1403_1392_848.png,False,actinic keratosis
+PAT_190,291,False,False,POMERANIA,POMERANIA,61,True,MALE,False,True,True,False,2.0,FOREARM,15.0,9.0,BCC,True,True,True,False,True,False,PAT_190_291_366.png,True,basal cell carcinoma
+PAT_830,1564,True,True,ITALY,GERMANY,84,False,MALE,True,False,False,False,2.0,NOSE,7.0,7.0,BCC,True,UNK,False,UNK,False,True,PAT_830_1564_740.png,True,basal cell carcinoma
+PAT_1712,3175,,,,,66,,,,,,,,ARM,,,ACK,True,False,False,False,False,False,PAT_1712_3175_600.png,False,actinic keratosis
+PAT_747,1409,False,False,UNK,BRAZIL,55,False,MALE,True,False,True,True,3.0,FOREARM,15.0,10.0,ACK,True,True,False,False,True,True,PAT_747_1409_466.png,True,actinic keratosis
+PAT_136,203,False,False,UNK,UNK,60,False,FEMALE,False,True,True,True,2.0,NOSE,5.0,5.0,BCC,False,UNK,False,UNK,False,True,PAT_136_203_436.png,True,basal cell carcinoma
+PAT_414,822,False,False,UNK,ITALY,20,True,FEMALE,False,False,False,False,4.0,BACK,4.0,2.0,ACK,False,False,False,False,False,True,PAT_414_822_420.png,True,actinic keratosis
+PAT_754,1429,False,False,ITALY,GERMANY,75,False,MALE,True,False,True,True,2.0,FOREARM,40.0,34.0,MEL,False,True,False,False,False,False,PAT_754_1429_380.png,True,melanoma
+PAT_1294,1031,,,,,35,,,,,,,,FACE,,,ACK,True,False,True,False,False,False,PAT_1294_1031_466.png,False,actinic keratosis
+PAT_1708,3156,,,,,73,,,,,,,,HAND,,,ACK,True,False,False,False,False,False,PAT_1708_3156_175.png,False,actinic keratosis
+PAT_46,880,False,False,POMERANIA,POMERANIA,55,False,FEMALE,True,True,True,True,3.0,CHEST,13.0,12.0,BCC,True,True,False,True,False,False,PAT_46_880_140.png,True,basal cell carcinoma
+PAT_326,690,False,False,POMERANIA,POMERANIA,58,True,FEMALE,True,True,False,False,3.0,FACE,5.0,4.0,BCC,True,False,False,False,False,True,PAT_326_690_823.png,True,basal cell carcinoma
