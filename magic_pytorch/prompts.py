@@ -60,4 +60,4 @@ def from_json_file(path, low=None, high=None):
     return random.choice(entries), {}
 
 def load_image_prompt_pair():
-    return from_json_file("/media/janet/DermDPO/magic_pytorch/assets/all_prompts.json")
+    return from_json_file("MAGIC/magic_pytorch/assets/all_prompts.json")
