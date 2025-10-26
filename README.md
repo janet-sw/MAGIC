@@ -1,5 +1,14 @@
 # Doctor Approved: Generating Medically Accurate Skin Disease Images through AI–Expert Feedback
 
+<a href="https://arxiv.org/abs/2506.12323">
+  <img src="https://img.shields.io/badge/arXiv-2506.12323-b31b1b.svg" alt="arXiv">
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/NeurIPS-2025-%2300b386" alt="Published at NeurIPS 2025">
+</a>
+
+---
+
 Official code for the paper [Doctor Approved: Generating Medically Accurate Skin Disease Images through AI–Expert Feedback](https://arxiv.org/pdf/2506.12323). Our work is accepted to NeurIPS 2025! This repository adapts components from [D3PO](https://github.com/yk7333/d3po) and [skin-diff](https://github.com/janet-sw/skin-diff). 
 
 
